@@ -1,0 +1,187 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MobileConnectDataResponse"
+- "MobileConnectControllerResponse"
+- "MCService"
+provides-nominal:
+- "C16MobileConnectSDK9MCService"
+provides-member:
+- ["C16MobileConnectSDK9MCService", ""]
+provides-dynamic-lookup:
+- "getTokenInController"
+- "getAuthorizationTokenInController"
+depends-top-level:
+- "MobileConnectDataResponse"
+- "MobileConnectServiceConfiguration"
+- "UIViewController"
+- "MobileConnectService"
+- "MobileConnectControllerResponse"
+- "BaseWebController"
+- "NSObject"
+- "Void"
+- !private "StringLiteralType"
+- "TokenModel"
+- "MCService"
+- "NSError"
+depends-member:
+- !private ["Ps9AnyObject", "MobileConnectService"]
+- !private ["Ps9AnyObject", "getAuthenticationTokenInController"]
+- ["Ps9AnyObject", "getAuthorizationTokenInController"]
+- ["Ps9AnyObject", "getTokenInController"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "service"]
+- ["Ps9AnyObject", ""]
+- !private ["C16MobileConnectSDK24BaseMobileConnectService", "getAuthenticationTokenInController"]
+- !private ["C16MobileConnectSDK24BaseMobileConnectService", "getAuthorizationTokenInController"]
+- !private ["Ps11CVarArgType", "MobileConnectService"]
+- !private ["Ps11CVarArgType", "getAuthenticationTokenInController"]
+- ["Ps11CVarArgType", "getAuthorizationTokenInController"]
+- ["Ps11CVarArgType", "getTokenInController"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "service"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "MobileConnectService"]
+- !private ["Ps28CustomDebugStringConvertible", "getAuthenticationTokenInController"]
+- ["Ps28CustomDebugStringConvertible", "getAuthorizationTokenInController"]
+- ["Ps28CustomDebugStringConvertible", "getTokenInController"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "service"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "MobileConnectService"]
+- !private ["Ps23CustomStringConvertible", "getAuthenticationTokenInController"]
+- ["Ps23CustomStringConvertible", "getAuthorizationTokenInController"]
+- ["Ps23CustomStringConvertible", "getTokenInController"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "service"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MobileConnectService"]
+- !private ["Ps9Equatable", "getAuthenticationTokenInController"]
+- ["Ps9Equatable", "getAuthorizationTokenInController"]
+- ["Ps9Equatable", "getTokenInController"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "service"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "MobileConnectService"]
+- !private ["Ps8Hashable", "getAuthenticationTokenInController"]
+- ["Ps8Hashable", "getAuthorizationTokenInController"]
+- ["Ps8Hashable", "getTokenInController"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "service"]
+- ["Ps8Hashable", ""]
+- !private ["PSo6Ignore", "MobileConnectService"]
+- !private ["PSo6Ignore", "getAuthenticationTokenInController"]
+- ["PSo6Ignore", "getAuthorizationTokenInController"]
+- ["PSo6Ignore", "getTokenInController"]
+- ["PSo6Ignore", "init"]
+- ["PSo6Ignore", "service"]
+- ["PSo6Ignore", ""]
+- !private ["PSo5Index", "MobileConnectService"]
+- !private ["PSo5Index", "getAuthenticationTokenInController"]
+- ["PSo5Index", "getAuthorizationTokenInController"]
+- ["PSo5Index", "getTokenInController"]
+- ["PSo5Index", "init"]
+- ["PSo5Index", "service"]
+- ["PSo5Index", ""]
+- ["C16MobileConnectSDK9MCService", "MobileConnectControllerResponse"]
+- ["C16MobileConnectSDK9MCService", "MobileConnectService"]
+- ["C16MobileConnectSDK9MCService", "MobileConnectServiceConfiguration"]
+- ["C16MobileConnectSDK9MCService", "UIViewController"]
+- ["C16MobileConnectSDK9MCService", "deinit"]
+- ["C16MobileConnectSDK9MCService", "getAuthorizationTokenInController"]
+- ["C16MobileConnectSDK9MCService", "getTokenInController"]
+- ["C16MobileConnectSDK9MCService", "init"]
+- ["C16MobileConnectSDK9MCService", "service"]
+- !private ["C16MobileConnectSDK20MobileConnectService", "getAuthenticationTokenInController"]
+- !private ["C16MobileConnectSDK20MobileConnectService", "getAuthorizationTokenInController"]
+- !private ["C16MobileConnectSDK20MobileConnectService", "init"]
+- ["CSo8NSObject", "MobileConnectControllerResponse"]
+- ["CSo8NSObject", "MobileConnectService"]
+- ["CSo8NSObject", "MobileConnectServiceConfiguration"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "getAuthenticationTokenInController"]
+- ["CSo8NSObject", "getAuthorizationTokenInController"]
+- ["CSo8NSObject", "getTokenInController"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "service"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "MobileConnectService"]
+- !private ["PSo16NSObjectProtocol", "getAuthenticationTokenInController"]
+- ["PSo16NSObjectProtocol", "getAuthorizationTokenInController"]
+- ["PSo16NSObjectProtocol", "getTokenInController"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "service"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo8Optional", "MobileConnectService"]
+- !private ["PSo8Optional", "getAuthenticationTokenInController"]
+- ["PSo8Optional", "getAuthorizationTokenInController"]
+- ["PSo8Optional", "getTokenInController"]
+- ["PSo8Optional", "init"]
+- ["PSo8Optional", "service"]
+- ["PSo8Optional", ""]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "getAuthenticationTokenInController"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "getAuthorizationTokenInController"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C16MobileConnectSDK24BaseMobileConnectService"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- "C16MobileConnectSDK9MCService"
+- !private "C16MobileConnectSDK20MobileConnectService"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo8Optional"
+- !private "Vs12StaticString"
+- !private "P16MobileConnectSDK21WebControllerDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/JSONModel.build/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AttributeResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/Enums/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/MobileConnectSDK/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MobileConnectSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/WebKit.swiftmodule"
+interface-hash: "5b36a78aa5a8d7a2d929de2961b690a7"

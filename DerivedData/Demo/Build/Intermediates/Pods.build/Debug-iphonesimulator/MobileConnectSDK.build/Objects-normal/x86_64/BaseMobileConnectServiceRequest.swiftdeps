@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseMobileConnectServiceRequest"
+provides-nominal:
+- "C16MobileConnectSDK31BaseMobileConnectServiceRequest"
+provides-member:
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "NSError"
+- "MCModel"
+- "Request"
+- "Response"
+- "Void"
+- !private "BaseMobileConnectServiceDeserializer"
+- "BaseMobileConnectServiceRequest"
+depends-member:
+- !private ["Ps9AnyObject", "BaseMobileConnectServiceDeserializer"]
+- !private ["Ps9AnyObject", "deserializeModel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- !private ["Ps9AnyObject", "treatResponseCompletionHandler"]
+- ["Ps9AnyObject", ""]
+- !private ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "deserializeModel"]
+- !private ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "init"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "AnyObject"]
+- !private ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "BaseMobileConnectServiceDeserializer"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "MCModel"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "NSError"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "Request"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "Response"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "Void"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "callRequest"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "deinit"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "init"]
+- ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "treatResponseCompletionHandler"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "deserializeModel"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "deserializeModel"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSuccess"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "deserializeModel"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSuccess"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "deserializeModel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "deserializeModel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["PSo6Ignore", "deserializeModel"]
+- !private ["PSo6Ignore", "init"]
+- !private ["PSo5Index", "deserializeModel"]
+- !private ["PSo5Index", "init"]
+- !private ["CSo8NSObject", "deserializeModel"]
+- !private ["PSo16NSObjectProtocol", "deserializeModel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo8Optional", "deserializeModel"]
+- !private ["PSo8Optional", "init"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "error"]
+- !private ["O9Alamofire6Result", "isSuccess"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C16MobileConnectSDK36BaseMobileConnectServiceDeserializer"
+- "C16MobileConnectSDK31BaseMobileConnectServiceRequest"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo6Ignore"
+- !private "PSo5Index"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo8Optional"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/JSONModel.build/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AttributeResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/Enums/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/MobileConnectSDK/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MobileConnectSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+interface-hash: "d6797666e4c2b12edd2f6f808174f788"

@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseMobileConnectServiceDeserializer"
+provides-nominal:
+- "C16MobileConnectSDK36BaseMobileConnectServiceDeserializer"
+provides-member:
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Dictionary"
+- !private "??"
+- "AnyObject"
+- "MCModel"
+- !private "kMobileConnectErrorDomain"
+- !private "MCErrorCode"
+- "Void"
+- "NSError"
+- !private "NSLocalizedDescriptionKey"
+- !private "StringLiteralType"
+- !private "=="
+- !private "String"
+- "BaseMobileConnectServiceDeserializer"
+- "NSObject"
+depends-member:
+- !private ["Ps9AnyObject", "MCErrorCode"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSLocalizedDescriptionKey"]
+- !private ["Ps9AnyObject", "RedirectModel"]
+- ["Ps9AnyObject", "deserializeModel"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kMobileConnectErrorDomain"]
+- ["Ps9AnyObject", "modelDictionary"]
+- ["Ps9AnyObject", ""]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "AnyObject"]
+- !private ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "MCErrorCode"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "NSError"]
+- !private ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "NSLocalizedDescriptionKey"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "NSObject"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "RedirectModel"]
+- !private ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "String"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "Void"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "deinit"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "deserializeModel"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "init"]
+- !private ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "kMobileConnectErrorDomain"]
+- ["C16MobileConnectSDK36BaseMobileConnectServiceDeserializer", "modelDictionary"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "MCErrorCode"]
+- !private ["Ps11CVarArgType", "NSError"]
+- !private ["Ps11CVarArgType", "NSLocalizedDescriptionKey"]
+- !private ["Ps11CVarArgType", "RedirectModel"]
+- ["Ps11CVarArgType", "deserializeModel"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "kMobileConnectErrorDomain"]
+- ["Ps11CVarArgType", "modelDictionary"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "contains"]
+- !private ["Ps14CollectionType", "keys"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "MCErrorCode"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps28CustomDebugStringConvertible", "RedirectModel"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "deserializeModel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kMobileConnectErrorDomain"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- ["Ps28CustomDebugStringConvertible", "modelDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "MCErrorCode"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps23CustomStringConvertible", "RedirectModel"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "deserializeModel"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kMobileConnectErrorDomain"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- ["Ps23CustomStringConvertible", "modelDictionary"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "_Element"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Vs15DictionaryIndex", "Distance"]
+- !private ["Vs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["Vs15DictionaryIndex", "deinit"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "_Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "keys"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "MCErrorCode"]
+- !private ["Ps9Equatable", "NSError"]
+- !private ["Ps9Equatable", "NSLocalizedDescriptionKey"]
+- !private ["Ps9Equatable", "RedirectModel"]
+- !private ["Ps9Equatable", "SerializationError"]
+- !private ["Ps9Equatable", "ServerResponse"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "deserializeModel"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kMobileConnectErrorDomain"]
+- ["Ps9Equatable", "modelDictionary"]
+- !private ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "init"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "MCErrorCode"]
+- !private ["Ps8Hashable", "NSError"]
+- !private ["Ps8Hashable", "NSLocalizedDescriptionKey"]
+- !private ["Ps8Hashable", "RedirectModel"]
+- !private ["Ps8Hashable", "SerializationError"]
+- !private ["Ps8Hashable", "ServerResponse"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "deserializeModel"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kMobileConnectErrorDomain"]
+- ["Ps8Hashable", "modelDictionary"]
+- !private ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["PSo6Ignore", "MCErrorCode"]
+- !private ["PSo6Ignore", "NSError"]
+- !private ["PSo6Ignore", "NSLocalizedDescriptionKey"]
+- !private ["PSo6Ignore", "RedirectModel"]
+- ["PSo6Ignore", "deserializeModel"]
+- ["PSo6Ignore", "init"]
+- !private ["PSo6Ignore", "kMobileConnectErrorDomain"]
+- ["PSo6Ignore", "modelDictionary"]
+- ["PSo6Ignore", ""]
+- !private ["PSo5Index", "MCErrorCode"]
+- !private ["PSo5Index", "NSError"]
+- !private ["PSo5Index", "NSLocalizedDescriptionKey"]
+- !private ["PSo5Index", "RedirectModel"]
+- ["PSo5Index", "deserializeModel"]
+- ["PSo5Index", "init"]
+- !private ["PSo5Index", "kMobileConnectErrorDomain"]
+- ["PSo5Index", "modelDictionary"]
+- ["PSo5Index", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "contains"]
+- !private ["Ps9Indexable", "keys"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["CSo9JSONModel", "init"]
+- !private ["Ps18LazyCollectionType", "Generator"]
+- !private ["Ps18LazyCollectionType", "contains"]
+- !private ["Vs17LazyMapCollection", "Generator"]
+- !private ["Vs17LazyMapCollection", "contains"]
+- !private ["Vs16LazyMapGenerator", "Element"]
+- !private ["Ps16LazySequenceType", "Generator"]
+- !private ["Ps16LazySequenceType", "contains"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "SerializationError"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "ServerResponse"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "deinit"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "error"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "rawValue"]
+- !private ["CSo7MCModel", "init"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo7NSError", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "MCErrorCode"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSLocalizedDescriptionKey"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "RedirectModel"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "deserializeModel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kMobileConnectErrorDomain"]
+- ["CSo8NSObject", "modelDictionary"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "MCErrorCode"]
+- !private ["PSo16NSObjectProtocol", "NSError"]
+- !private ["PSo16NSObjectProtocol", "NSLocalizedDescriptionKey"]
+- !private ["PSo16NSObjectProtocol", "RedirectModel"]
+- ["PSo16NSObjectProtocol", "deserializeModel"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kMobileConnectErrorDomain"]
+- ["PSo16NSObjectProtocol", "modelDictionary"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["PSo8Optional", "MCErrorCode"]
+- !private ["PSo8Optional", "NSError"]
+- !private ["PSo8Optional", "NSLocalizedDescriptionKey"]
+- !private ["PSo8Optional", "RedirectModel"]
+- ["PSo8Optional", "deserializeModel"]
+- ["PSo8Optional", "init"]
+- !private ["PSo8Optional", "kMobileConnectErrorDomain"]
+- ["PSo8Optional", "modelDictionary"]
+- ["PSo8Optional", ""]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "SerializationError"]
+- !private ["Ps16RawRepresentable", "ServerResponse"]
+- !private ["Ps16RawRepresentable", "error"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "contains"]
+- !private ["Ps12SequenceType", "keys"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "keys"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "keys"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C16MobileConnectSDK36BaseMobileConnectServiceDeserializer"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Vs15DictionaryIndex"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "CSo9JSONModel"
+- !private "Ps18LazyCollectionType"
+- !private "Vs17LazyMapCollection"
+- !private "Vs16LazyMapGenerator"
+- !private "Ps16LazySequenceType"
+- !private "O16MobileConnectSDK11MCErrorCode"
+- !private "CSo7MCModel"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- "PSo8Optional"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/JSONModel.build/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AttributeResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/Enums/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/MobileConnectSDK/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MobileConnectSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+interface-hash: "367b23c4be64b4e110f47ce1a0884ddd"

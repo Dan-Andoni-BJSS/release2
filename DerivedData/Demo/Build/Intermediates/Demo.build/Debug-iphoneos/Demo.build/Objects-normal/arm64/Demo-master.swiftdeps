@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "14699766b6d4ae622c75ce36c2b38723"
+build_time: [524825559, 245072000]
+inputs:
+  "/Users/jenkins/Desktop/Demo/Demo/AuthorizationViewController.swift": [522710554, 0]
+  "/Users/jenkins/Desktop/Demo/Demo/TokenInfoViewController.swift": [522347630, 0]
+  "/Users/jenkins/Desktop/Demo/Demo/AuthenticationViewController.swift": [522711268, 0]
+  "/Users/jenkins/Desktop/Demo/Demo/ViewController.swift": [522347511, 0]
+  "/Users/jenkins/Desktop/Demo/Demo/AppDelegate.swift": [522340309, 0]
+  "/Users/jenkins/Desktop/Demo/Demo/Constants.swift": [522162568, 0]

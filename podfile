@@ -1,0 +1,10 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Demo' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'MobileConnectSDK', :git => 'https://github.com/Dan-Andoni-BJSS/GMC-235Test', :branch => ’master’
+  # Pods for Demo
+
+end

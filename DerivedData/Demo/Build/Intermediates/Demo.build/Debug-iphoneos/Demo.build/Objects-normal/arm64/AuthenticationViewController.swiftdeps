@@ -1,0 +1,339 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthenticationViewController"
+provides-nominal:
+- "C4Demo28AuthenticationViewController"
+provides-member:
+- ["C4Demo28AuthenticationViewController", ""]
+provides-dynamic-lookup:
+- "actionWithoutPhoneWithManager"
+- "actionWithPhoneAndWithManager"
+depends-top-level:
+- "AuthenticationViewController"
+- "MobileConnectManager"
+- !private "??"
+- "AuthorizationViewController"
+- !private "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "actionWithPhoneAndWithManager"]
+- ["Ps9AnyObject", "actionWithoutPhoneWithManager"]
+- !private ["Ps9AnyObject", "getTokenForPhoneNumber"]
+- !private ["Ps9AnyObject", "getTokenInPresenterController"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps9AnyObject", "phoneNumberTextField"]
+- !private ["Ps9AnyObject", "selectedProductTypes"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", ""]
+- ["C4Demo28AuthenticationViewController", "MobileConnectManager"]
+- ["C4Demo28AuthenticationViewController", "actionWithPhoneAndWithManager"]
+- ["C4Demo28AuthenticationViewController", "actionWithoutPhoneWithManager"]
+- ["C4Demo28AuthenticationViewController", "deinit"]
+- ["C4Demo28AuthenticationViewController", "init"]
+- !private ["C4Demo28AuthenticationViewController", "launchTokenViewerWithTokenResponseModel"]
+- !private ["C4Demo28AuthenticationViewController", "phoneNumberTextField"]
+- !private ["C4Demo28AuthenticationViewController", "selectedProductTypes"]
+- ["C4Demo27AuthorizationViewController", "MobileConnectManager"]
+- ["C4Demo27AuthorizationViewController", "actionWithPhoneAndWithManager"]
+- ["C4Demo27AuthorizationViewController", "actionWithoutPhoneWithManager"]
+- ["C4Demo27AuthorizationViewController", "init"]
+- !private ["C4Demo27AuthorizationViewController", "launchTokenViewerWithTokenResponseModel"]
+- !private ["C4Demo27AuthorizationViewController", "phoneNumberTextField"]
+- !private ["C4Demo27AuthorizationViewController", "selectedProductTypes"]
+- ["C4Demo27AuthorizationViewController", ""]
+- ["Ps11CVarArgType", "actionWithPhoneAndWithManager"]
+- ["Ps11CVarArgType", "actionWithoutPhoneWithManager"]
+- !private ["Ps11CVarArgType", "getTokenForPhoneNumber"]
+- !private ["Ps11CVarArgType", "getTokenInPresenterController"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps11CVarArgType", "phoneNumberTextField"]
+- !private ["Ps11CVarArgType", "selectedProductTypes"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "actionWithPhoneAndWithManager"]
+- ["Ps28CustomDebugStringConvertible", "actionWithoutPhoneWithManager"]
+- !private ["Ps28CustomDebugStringConvertible", "getTokenForPhoneNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "getTokenInPresenterController"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps28CustomDebugStringConvertible", "phoneNumberTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedProductTypes"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "actionWithPhoneAndWithManager"]
+- ["Ps23CustomStringConvertible", "actionWithoutPhoneWithManager"]
+- !private ["Ps23CustomStringConvertible", "getTokenForPhoneNumber"]
+- !private ["Ps23CustomStringConvertible", "getTokenInPresenterController"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps23CustomStringConvertible", "phoneNumberTextField"]
+- !private ["Ps23CustomStringConvertible", "selectedProductTypes"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "actionWithPhoneAndWithManager"]
+- ["Ps9Equatable", "actionWithoutPhoneWithManager"]
+- !private ["Ps9Equatable", "getTokenForPhoneNumber"]
+- !private ["Ps9Equatable", "getTokenInPresenterController"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps9Equatable", "phoneNumberTextField"]
+- !private ["Ps9Equatable", "selectedProductTypes"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "actionWithPhoneAndWithManager"]
+- ["Ps8Hashable", "actionWithoutPhoneWithManager"]
+- !private ["Ps8Hashable", "getTokenForPhoneNumber"]
+- !private ["Ps8Hashable", "getTokenInPresenterController"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps8Hashable", "phoneNumberTextField"]
+- !private ["Ps8Hashable", "selectedProductTypes"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", ""]
+- ["PSo6Ignore", "actionWithPhoneAndWithManager"]
+- ["PSo6Ignore", "actionWithoutPhoneWithManager"]
+- !private ["PSo6Ignore", "getTokenForPhoneNumber"]
+- !private ["PSo6Ignore", "getTokenInPresenterController"]
+- ["PSo6Ignore", "init"]
+- !private ["PSo6Ignore", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo6Ignore", "phoneNumberTextField"]
+- !private ["PSo6Ignore", "selectedProductTypes"]
+- !private ["PSo6Ignore", "text"]
+- ["PSo6Ignore", ""]
+- ["PSo5Index", "actionWithPhoneAndWithManager"]
+- ["PSo5Index", "actionWithoutPhoneWithManager"]
+- !private ["PSo5Index", "getTokenForPhoneNumber"]
+- !private ["PSo5Index", "getTokenInPresenterController"]
+- ["PSo5Index", "init"]
+- !private ["PSo5Index", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo5Index", "phoneNumberTextField"]
+- !private ["PSo5Index", "selectedProductTypes"]
+- !private ["PSo5Index", "text"]
+- ["PSo5Index", ""]
+- !private ["C16MobileConnectSDK20MobileConnectManager", "getTokenForPhoneNumber"]
+- !private ["C16MobileConnectSDK20MobileConnectManager", "getTokenInPresenterController"]
+- ["PSo8NSCoding", "actionWithPhoneAndWithManager"]
+- ["PSo8NSCoding", "actionWithoutPhoneWithManager"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo8NSCoding", "phoneNumberTextField"]
+- !private ["PSo8NSCoding", "selectedProductTypes"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "actionWithPhoneAndWithManager"]
+- ["PSo26NSExtensionRequestHandling", "actionWithoutPhoneWithManager"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo26NSExtensionRequestHandling", "phoneNumberTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedProductTypes"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "MobileConnectManager"]
+- ["CSo8NSObject", "actionWithPhoneAndWithManager"]
+- ["CSo8NSObject", "actionWithoutPhoneWithManager"]
+- !private ["CSo8NSObject", "getTokenForPhoneNumber"]
+- !private ["CSo8NSObject", "getTokenInPresenterController"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "launchTokenViewerWithTokenResponseModel"]
+- !private ["CSo8NSObject", "phoneNumberTextField"]
+- !private ["CSo8NSObject", "selectedProductTypes"]
+- !private ["CSo8NSObject", "text"]
+- ["PSo16NSObjectProtocol", "actionWithPhoneAndWithManager"]
+- ["PSo16NSObjectProtocol", "actionWithoutPhoneWithManager"]
+- !private ["PSo16NSObjectProtocol", "getTokenForPhoneNumber"]
+- !private ["PSo16NSObjectProtocol", "getTokenInPresenterController"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo16NSObjectProtocol", "phoneNumberTextField"]
+- !private ["PSo16NSObjectProtocol", "selectedProductTypes"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo8Optional", "actionWithPhoneAndWithManager"]
+- ["PSo8Optional", "actionWithoutPhoneWithManager"]
+- !private ["PSo8Optional", "getTokenForPhoneNumber"]
+- !private ["PSo8Optional", "getTokenInPresenterController"]
+- ["PSo8Optional", "init"]
+- !private ["PSo8Optional", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo8Optional", "phoneNumberTextField"]
+- !private ["PSo8Optional", "selectedProductTypes"]
+- !private ["PSo8Optional", "text"]
+- ["PSo8Optional", ""]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "actionWithPhoneAndWithManager"]
+- ["PSo21UIAppearanceContainer", "actionWithoutPhoneWithManager"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo21UIAppearanceContainer", "phoneNumberTextField"]
+- !private ["PSo21UIAppearanceContainer", "selectedProductTypes"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "actionWithPhoneAndWithManager"]
+- ["PSo18UIContentContainer", "actionWithoutPhoneWithManager"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo18UIContentContainer", "phoneNumberTextField"]
+- !private ["PSo18UIContentContainer", "selectedProductTypes"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "actionWithPhoneAndWithManager"]
+- ["PSo18UIFocusEnvironment", "actionWithoutPhoneWithManager"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo18UIFocusEnvironment", "phoneNumberTextField"]
+- !private ["PSo18UIFocusEnvironment", "selectedProductTypes"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "MobileConnectManager"]
+- ["CSo11UIResponder", "actionWithPhoneAndWithManager"]
+- ["CSo11UIResponder", "actionWithoutPhoneWithManager"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "launchTokenViewerWithTokenResponseModel"]
+- !private ["CSo11UIResponder", "phoneNumberTextField"]
+- !private ["CSo11UIResponder", "selectedProductTypes"]
+- !private ["CSo11UIResponder", "text"]
+- ["PSo20UIScrollViewDelegate", "actionWithPhoneAndWithManager"]
+- ["PSo20UIScrollViewDelegate", "actionWithoutPhoneWithManager"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo20UIScrollViewDelegate", "phoneNumberTextField"]
+- !private ["PSo20UIScrollViewDelegate", "selectedProductTypes"]
+- ["PSo20UIScrollViewDelegate", ""]
+- ["PSo16UIStateRestoring", "actionWithPhoneAndWithManager"]
+- ["PSo16UIStateRestoring", "actionWithoutPhoneWithManager"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo16UIStateRestoring", "phoneNumberTextField"]
+- !private ["PSo16UIStateRestoring", "selectedProductTypes"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo21UITableViewDataSource", "actionWithPhoneAndWithManager"]
+- ["PSo21UITableViewDataSource", "actionWithoutPhoneWithManager"]
+- ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo21UITableViewDataSource", "phoneNumberTextField"]
+- !private ["PSo21UITableViewDataSource", "selectedProductTypes"]
+- ["PSo21UITableViewDataSource", ""]
+- ["PSo19UITableViewDelegate", "actionWithPhoneAndWithManager"]
+- ["PSo19UITableViewDelegate", "actionWithoutPhoneWithManager"]
+- ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo19UITableViewDelegate", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo19UITableViewDelegate", "phoneNumberTextField"]
+- !private ["PSo19UITableViewDelegate", "selectedProductTypes"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "actionWithPhoneAndWithManager"]
+- ["PSo18UITraitEnvironment", "actionWithoutPhoneWithManager"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo18UITraitEnvironment", "phoneNumberTextField"]
+- !private ["PSo18UITraitEnvironment", "selectedProductTypes"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "MobileConnectManager"]
+- ["CSo16UIViewController", "actionWithPhoneAndWithManager"]
+- ["CSo16UIViewController", "actionWithoutPhoneWithManager"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "launchTokenViewerWithTokenResponseModel"]
+- !private ["CSo16UIViewController", "phoneNumberTextField"]
+- !private ["CSo16UIViewController", "selectedProductTypes"]
+- ["C4Demo14ViewController", "MobileConnectManager"]
+- ["C4Demo14ViewController", "actionWithPhoneAndWithManager"]
+- ["C4Demo14ViewController", "actionWithoutPhoneWithManager"]
+- ["C4Demo14ViewController", "init"]
+- !private ["C4Demo14ViewController", "launchTokenViewerWithTokenResponseModel"]
+- !private ["C4Demo14ViewController", "phoneNumberTextField"]
+- !private ["C4Demo14ViewController", "selectedProductTypes"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C4Demo28AuthenticationViewController"
+- "C4Demo27AuthorizationViewController"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- !private "C16MobileConnectSDK20MobileConnectManager"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo8Optional"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C4Demo14ViewController"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Modules/MobileConnectSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Modules/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectSDK-Swift.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MCJWTDecoder.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MCError.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WebKit.swiftmodule"
+interface-hash: "99795425a1db6f0c16e17d0c87172586"

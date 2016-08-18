@@ -1,0 +1,88 @@
+PODS:
+  - Alamofire (3.4.1)
+  - JSONModel (1.2.0)
+  - MobileConnectSDK (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+    - MobileConnectSDK/Controllers (= 3.0.2)
+    - MobileConnectSDK/Extensions (= 3.0.2)
+    - MobileConnectSDK/MobileConnectManager (= 3.0.2)
+    - MobileConnectSDK/Models (= 3.0.2)
+    - MobileConnectSDK/Services (= 3.0.2)
+    - MobileConnectSDK/Utilities (= 3.0.2)
+    - MobileConnectSDK/Views (= 3.0.2)
+  - MobileConnectSDK/Controllers (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Extensions (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/MobileConnectManager (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Models (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+    - MobileConnectSDK/Models/Enums (= 3.0.2)
+  - MobileConnectSDK/Models/Enums (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Services (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+    - MobileConnectSDK/Services/AttributeService (= 3.0.2)
+    - MobileConnectSDK/Services/BaseMobileConnect (= 3.0.2)
+    - MobileConnectSDK/Services/Discovery (= 3.0.2)
+    - MobileConnectSDK/Services/MobileConnect (= 3.0.2)
+  - MobileConnectSDK/Services/AttributeService (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Services/BaseMobileConnect (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Services/Discovery (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Services/MobileConnect (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+    - MobileConnectSDK/Services/MobileConnect/Configurations (= 3.0.2)
+  - MobileConnectSDK/Services/MobileConnect/Configurations (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Utilities (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+    - MobileConnectSDK/Utilities/Networking (= 3.0.2)
+  - MobileConnectSDK/Utilities/Networking (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+    - MobileConnectSDK/Utilities/Networking/RequestConstructor (= 3.0.2)
+  - MobileConnectSDK/Utilities/Networking/RequestConstructor (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+  - MobileConnectSDK/Views (3.0.2):
+    - Alamofire (~> 3.4)
+    - JSONModel (~> 1.2.0)
+
+DEPENDENCIES:
+  - MobileConnectSDK (from `https://github.com/Dan-Andoni-BJSS/GMC-235Test`, branch `master`)
+
+EXTERNAL SOURCES:
+  MobileConnectSDK:
+    :branch: master
+    :git: https://github.com/Dan-Andoni-BJSS/GMC-235Test
+
+CHECKOUT OPTIONS:
+  MobileConnectSDK:
+    :commit: ce47a0fb2e588c8b99b9de5e3076413de5542db7
+    :git: https://github.com/Dan-Andoni-BJSS/GMC-235Test
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  MobileConnectSDK: 610ab7856d81edfc474fe909a5b292c94e687474
+
+PODFILE CHECKSUM: 7b045b1f8ee9d1f599cef8373eb3cea9bb39fcca
+
+COCOAPODS: 1.0.1

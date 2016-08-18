@@ -1,0 +1,898 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseMobileConnectService"
+provides-nominal:
+- "C16MobileConnectSDK24BaseMobileConnectService"
+provides-member:
+- ["C16MobileConnectSDK24BaseMobileConnectService", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- !private "Array"
+- "MCErrorCode"
+- "NSURLRequest"
+- "BooleanLiteralType"
+- "MCModel"
+- "Bool"
+- "UIViewController"
+- !private "NSException"
+- "BaseMobileConnectService"
+- !private "Dictionary"
+- !private "!"
+- "NSError"
+- !private "WebController"
+- !private "=="
+- "NSURL"
+- !private "NSLocalizedDescriptionKey"
+- !private "||"
+- !private "??"
+- !private "BaseMobileConnectServiceRequest"
+- "BaseWebController"
+- !private "StringLiteralType"
+- "NSObject"
+- "Void"
+- "Request"
+depends-member:
+- !private ["Ps9AnyObject", "BaseMobileConnectServiceRequest"]
+- !private ["Ps9AnyObject", "MCErrorCode"]
+- !private ["Ps9AnyObject", "NSException"]
+- !private ["Ps9AnyObject", "NSLocalizedDescriptionKey"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "WebController"]
+- !private ["Ps9AnyObject", "callRequest"]
+- ["Ps9AnyObject", "canStartRequesting"]
+- !private ["Ps9AnyObject", "characters"]
+- ["Ps9AnyObject", "controllerResponse"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveResponseFromController"]
+- !private ["Ps9AnyObject", "existingTemplate"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isAwaitingResponse"]
+- ["Ps9AnyObject", "isFirstResponse"]
+- ["Ps9AnyObject", "parametersAreValid"]
+- !private ["Ps9AnyObject", "presentViewController"]
+- ["Ps9AnyObject", "presentWebControllerWithRequest"]
+- ["Ps9AnyObject", "processRequest"]
+- ["Ps9AnyObject", "processSpecificRequest"]
+- !private ["Ps9AnyObject", "raise"]
+- ["Ps9AnyObject", "redirectURL"]
+- !private ["Ps9AnyObject", "request"]
+- !private ["Ps9AnyObject", "requestToLoad"]
+- ["Ps9AnyObject", "startInHandler"]
+- ["Ps9AnyObject", "startServiceInController"]
+- ["Ps9AnyObject", "webController"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "filter"]
+- !private ["Ps23ArrayLiteralConvertible", "first"]
+- !private ["Ps23ArrayLiteralConvertible", "map"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Vs10ArraySlice", "deinit"]
+- !private ["Vs33AutoreleasingUnsafeMutablePointer", "deinit"]
+- !private ["C16MobileConnectSDK24BaseMobileConnectService", "BaseMobileConnectServiceRequest"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "BaseWebController"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "Bool"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "MCErrorCode"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "MCModel"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "NSError"]
+- !private ["C16MobileConnectSDK24BaseMobileConnectService", "NSException"]
+- !private ["C16MobileConnectSDK24BaseMobileConnectService", "NSLocalizedDescriptionKey"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "NSURL"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "NSURLRequest"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "RedirectModel"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "Request"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "ResponseModel"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "String"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "UIViewController"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "Void"]
+- !private ["C16MobileConnectSDK24BaseMobileConnectService", "WebController"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "canStartRequesting"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "controllerResponse"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "deinit"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "didReceiveResponseFromController"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "init"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "isAwaitingResponse"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "isFirstResponse"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "parametersAreValid"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "presentWebControllerWithRequest"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "processRequest"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "processSpecificRequest"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "redirectURL"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "startInHandler"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "startServiceInController"]
+- ["C16MobileConnectSDK24BaseMobileConnectService", "webController"]
+- !private ["C16MobileConnectSDK31BaseMobileConnectServiceRequest", "callRequest"]
+- !private ["C16MobileConnectSDK17BaseWebController", "deinit"]
+- !private ["C16MobileConnectSDK17BaseWebController", "delegate"]
+- !private ["C16MobileConnectSDK17BaseWebController", "existingTemplate"]
+- !private ["C16MobileConnectSDK17BaseWebController", "requestToLoad"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "BaseMobileConnectServiceRequest"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "MCErrorCode"]
+- !private ["Ps11CVarArgType", "NSException"]
+- !private ["Ps11CVarArgType", "NSLocalizedDescriptionKey"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "WebController"]
+- ["Ps11CVarArgType", "canStartRequesting"]
+- !private ["Ps11CVarArgType", "characters"]
+- ["Ps11CVarArgType", "controllerResponse"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "didReceiveResponseFromController"]
+- !private ["Ps11CVarArgType", "existingTemplate"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isAwaitingResponse"]
+- ["Ps11CVarArgType", "isFirstResponse"]
+- ["Ps11CVarArgType", "parametersAreValid"]
+- !private ["Ps11CVarArgType", "presentViewController"]
+- ["Ps11CVarArgType", "presentWebControllerWithRequest"]
+- ["Ps11CVarArgType", "processRequest"]
+- ["Ps11CVarArgType", "processSpecificRequest"]
+- !private ["Ps11CVarArgType", "raise"]
+- ["Ps11CVarArgType", "redirectURL"]
+- !private ["Ps11CVarArgType", "requestToLoad"]
+- ["Ps11CVarArgType", "startInHandler"]
+- ["Ps11CVarArgType", "startServiceInController"]
+- ["Ps11CVarArgType", "webController"]
+- ["Ps11CVarArgType", ""]
+- !private ["VSS13CharacterView", "Generator"]
+- !private ["VSS13CharacterView", "Index"]
+- !private ["VSS13CharacterView", "SubSequence"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Vs14ClosedInterval", "deinit"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "filter"]
+- !private ["Ps14CollectionType", "first"]
+- !private ["Ps14CollectionType", "map"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Vs15ContiguousArray", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "BaseMobileConnectServiceRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "MCErrorCode"]
+- !private ["Ps28CustomDebugStringConvertible", "NSException"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "None"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "WebController"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "canStartRequesting"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- ["Ps28CustomDebugStringConvertible", "controllerResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveResponseFromController"]
+- !private ["Ps28CustomDebugStringConvertible", "existingTemplate"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isAwaitingResponse"]
+- ["Ps28CustomDebugStringConvertible", "isFirstResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- ["Ps28CustomDebugStringConvertible", "parametersAreValid"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
+- ["Ps28CustomDebugStringConvertible", "presentWebControllerWithRequest"]
+- ["Ps28CustomDebugStringConvertible", "processRequest"]
+- ["Ps28CustomDebugStringConvertible", "processSpecificRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "raise"]
+- ["Ps28CustomDebugStringConvertible", "redirectURL"]
+- !private ["Ps28CustomDebugStringConvertible", "request"]
+- !private ["Ps28CustomDebugStringConvertible", "requestToLoad"]
+- ["Ps28CustomDebugStringConvertible", "startInHandler"]
+- ["Ps28CustomDebugStringConvertible", "startServiceInController"]
+- ["Ps28CustomDebugStringConvertible", "webController"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BaseMobileConnectServiceRequest"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "MCErrorCode"]
+- !private ["Ps23CustomStringConvertible", "NSException"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "WebController"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "canStartRequesting"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- ["Ps23CustomStringConvertible", "controllerResponse"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveResponseFromController"]
+- !private ["Ps23CustomStringConvertible", "existingTemplate"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isAwaitingResponse"]
+- ["Ps23CustomStringConvertible", "isFirstResponse"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- ["Ps23CustomStringConvertible", "parametersAreValid"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
+- ["Ps23CustomStringConvertible", "presentWebControllerWithRequest"]
+- ["Ps23CustomStringConvertible", "processRequest"]
+- ["Ps23CustomStringConvertible", "processSpecificRequest"]
+- !private ["Ps23CustomStringConvertible", "raise"]
+- ["Ps23CustomStringConvertible", "redirectURL"]
+- !private ["Ps23CustomStringConvertible", "request"]
+- !private ["Ps23CustomStringConvertible", "requestToLoad"]
+- ["Ps23CustomStringConvertible", "startInHandler"]
+- ["Ps23CustomStringConvertible", "startServiceInController"]
+- ["Ps23CustomStringConvertible", "webController"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs15DictionaryIndex", "deinit"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps9Equatable", "BaseMobileConnectServiceRequest"]
+- !private ["Ps9Equatable", "Concurrency"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "MCErrorCode"]
+- !private ["Ps9Equatable", "NSException"]
+- !private ["Ps9Equatable", "NSLocalizedDescriptionKey"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NoRequestToLoad"]
+- !private ["Ps9Equatable", "WebController"]
+- !private ["Ps9Equatable", "WebControllerNil"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "canStartRequesting"]
+- !private ["Ps9Equatable", "characters"]
+- ["Ps9Equatable", "controllerResponse"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveResponseFromController"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "existingTemplate"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isAwaitingResponse"]
+- ["Ps9Equatable", "isFirstResponse"]
+- ["Ps9Equatable", "parametersAreValid"]
+- !private ["Ps9Equatable", "presentViewController"]
+- ["Ps9Equatable", "presentWebControllerWithRequest"]
+- ["Ps9Equatable", "processRequest"]
+- ["Ps9Equatable", "processSpecificRequest"]
+- !private ["Ps9Equatable", "raise"]
+- ["Ps9Equatable", "redirectURL"]
+- !private ["Ps9Equatable", "requestToLoad"]
+- ["Ps9Equatable", "startInHandler"]
+- ["Ps9Equatable", "startServiceInController"]
+- ["Ps9Equatable", "webController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Vs35FlattenBidirectionalCollectionIndex", "deinit"]
+- !private ["Vs22FlattenCollectionIndex", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Vs16HalfOpenInterval", "deinit"]
+- !private ["Ps8Hashable", "BaseMobileConnectServiceRequest"]
+- !private ["Ps8Hashable", "Concurrency"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "MCErrorCode"]
+- !private ["Ps8Hashable", "NSException"]
+- !private ["Ps8Hashable", "NSLocalizedDescriptionKey"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NoRequestToLoad"]
+- !private ["Ps8Hashable", "WebController"]
+- !private ["Ps8Hashable", "WebControllerNil"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "canStartRequesting"]
+- !private ["Ps8Hashable", "characters"]
+- ["Ps8Hashable", "controllerResponse"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveResponseFromController"]
+- !private ["Ps8Hashable", "error"]
+- !private ["Ps8Hashable", "existingTemplate"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isAwaitingResponse"]
+- ["Ps8Hashable", "isFirstResponse"]
+- ["Ps8Hashable", "parametersAreValid"]
+- !private ["Ps8Hashable", "presentViewController"]
+- ["Ps8Hashable", "presentWebControllerWithRequest"]
+- ["Ps8Hashable", "processRequest"]
+- ["Ps8Hashable", "processSpecificRequest"]
+- !private ["Ps8Hashable", "raise"]
+- ["Ps8Hashable", "redirectURL"]
+- !private ["Ps8Hashable", "requestToLoad"]
+- ["Ps8Hashable", "startInHandler"]
+- ["Ps8Hashable", "startServiceInController"]
+- ["Ps8Hashable", "webController"]
+- ["Ps8Hashable", ""]
+- !private ["PSo6Ignore", "BaseMobileConnectServiceRequest"]
+- !private ["PSo6Ignore", "MCErrorCode"]
+- !private ["PSo6Ignore", "NSException"]
+- !private ["PSo6Ignore", "NSLocalizedDescriptionKey"]
+- !private ["PSo6Ignore", "NSURL"]
+- !private ["PSo6Ignore", "WebController"]
+- ["PSo6Ignore", "canStartRequesting"]
+- !private ["PSo6Ignore", "characters"]
+- ["PSo6Ignore", "controllerResponse"]
+- !private ["PSo6Ignore", "delegate"]
+- ["PSo6Ignore", "didReceiveResponseFromController"]
+- !private ["PSo6Ignore", "existingTemplate"]
+- ["PSo6Ignore", "init"]
+- ["PSo6Ignore", "isAwaitingResponse"]
+- ["PSo6Ignore", "isFirstResponse"]
+- ["PSo6Ignore", "parametersAreValid"]
+- !private ["PSo6Ignore", "presentViewController"]
+- ["PSo6Ignore", "presentWebControllerWithRequest"]
+- ["PSo6Ignore", "processRequest"]
+- ["PSo6Ignore", "processSpecificRequest"]
+- !private ["PSo6Ignore", "raise"]
+- ["PSo6Ignore", "redirectURL"]
+- !private ["PSo6Ignore", "requestToLoad"]
+- ["PSo6Ignore", "startInHandler"]
+- ["PSo6Ignore", "startServiceInController"]
+- ["PSo6Ignore", "webController"]
+- ["PSo6Ignore", ""]
+- !private ["PSo5Index", "BaseMobileConnectServiceRequest"]
+- !private ["PSo5Index", "MCErrorCode"]
+- !private ["PSo5Index", "NSException"]
+- !private ["PSo5Index", "NSLocalizedDescriptionKey"]
+- !private ["PSo5Index", "NSURL"]
+- !private ["PSo5Index", "WebController"]
+- ["PSo5Index", "canStartRequesting"]
+- !private ["PSo5Index", "characters"]
+- ["PSo5Index", "controllerResponse"]
+- !private ["PSo5Index", "delegate"]
+- ["PSo5Index", "didReceiveResponseFromController"]
+- !private ["PSo5Index", "existingTemplate"]
+- ["PSo5Index", "init"]
+- ["PSo5Index", "isAwaitingResponse"]
+- ["PSo5Index", "isFirstResponse"]
+- ["PSo5Index", "parametersAreValid"]
+- !private ["PSo5Index", "presentViewController"]
+- ["PSo5Index", "presentWebControllerWithRequest"]
+- ["PSo5Index", "processRequest"]
+- ["PSo5Index", "processSpecificRequest"]
+- !private ["PSo5Index", "raise"]
+- ["PSo5Index", "redirectURL"]
+- !private ["PSo5Index", "requestToLoad"]
+- ["PSo5Index", "startInHandler"]
+- ["PSo5Index", "startServiceInController"]
+- ["PSo5Index", "webController"]
+- ["PSo5Index", ""]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "filter"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Vs15LazyFilterIndex", "deinit"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "Concurrency"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "NoRequestToLoad"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "WebControllerNil"]
+- !private ["O16MobileConnectSDK11MCErrorCode", "error"]
+- !private ["Vs20ManagedBufferPointer", "deinit"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "characters"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "filter"]
+- !private ["Ps21MutableCollectionType", "first"]
+- !private ["Ps21MutableCollectionType", "map"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "filter"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["Ps16MutableIndexable", "map"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "filter"]
+- !private ["Ps16MutableSliceable", "first"]
+- !private ["Ps16MutableSliceable", "map"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "existingTemplate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "raise"]
+- !private ["PSo8NSCoding", "requestToLoad"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "raise"]
+- !private ["CSo11NSException", "init"]
+- !private ["CSo11NSException", "raise"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "existingTemplate"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "requestToLoad"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["CSo8NSObject", "BaseMobileConnectServiceRequest"]
+- ["CSo8NSObject", "BaseWebController"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "MCErrorCode"]
+- ["CSo8NSObject", "MCModel"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSException"]
+- !private ["CSo8NSObject", "NSLocalizedDescriptionKey"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "NSURLRequest"]
+- ["CSo8NSObject", "RedirectModel"]
+- ["CSo8NSObject", "Request"]
+- ["CSo8NSObject", "ResponseModel"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "WebController"]
+- ["CSo8NSObject", "canStartRequesting"]
+- !private ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "controllerResponse"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveResponseFromController"]
+- !private ["CSo8NSObject", "existingTemplate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isAwaitingResponse"]
+- ["CSo8NSObject", "isFirstResponse"]
+- ["CSo8NSObject", "parametersAreValid"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "presentWebControllerWithRequest"]
+- ["CSo8NSObject", "processRequest"]
+- ["CSo8NSObject", "processSpecificRequest"]
+- !private ["CSo8NSObject", "raise"]
+- ["CSo8NSObject", "redirectURL"]
+- !private ["CSo8NSObject", "requestToLoad"]
+- ["CSo8NSObject", "startInHandler"]
+- ["CSo8NSObject", "startServiceInController"]
+- ["CSo8NSObject", "webController"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "BaseMobileConnectServiceRequest"]
+- !private ["PSo16NSObjectProtocol", "MCErrorCode"]
+- !private ["PSo16NSObjectProtocol", "NSException"]
+- !private ["PSo16NSObjectProtocol", "NSLocalizedDescriptionKey"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "WebController"]
+- ["PSo16NSObjectProtocol", "canStartRequesting"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- ["PSo16NSObjectProtocol", "controllerResponse"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveResponseFromController"]
+- !private ["PSo16NSObjectProtocol", "existingTemplate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isAwaitingResponse"]
+- ["PSo16NSObjectProtocol", "isFirstResponse"]
+- ["PSo16NSObjectProtocol", "parametersAreValid"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "presentWebControllerWithRequest"]
+- ["PSo16NSObjectProtocol", "processRequest"]
+- ["PSo16NSObjectProtocol", "processSpecificRequest"]
+- !private ["PSo16NSObjectProtocol", "raise"]
+- ["PSo16NSObjectProtocol", "redirectURL"]
+- !private ["PSo16NSObjectProtocol", "requestToLoad"]
+- ["PSo16NSObjectProtocol", "startInHandler"]
+- ["PSo16NSObjectProtocol", "startServiceInController"]
+- ["PSo16NSObjectProtocol", "webController"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Ps21NilLiteralConvertible", "None"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["PSo8Optional", "BaseMobileConnectServiceRequest"]
+- !private ["PSo8Optional", "MCErrorCode"]
+- !private ["PSo8Optional", "NSException"]
+- !private ["PSo8Optional", "NSLocalizedDescriptionKey"]
+- !private ["PSo8Optional", "NSURL"]
+- !private ["PSo8Optional", "WebController"]
+- ["PSo8Optional", "canStartRequesting"]
+- !private ["PSo8Optional", "characters"]
+- ["PSo8Optional", "controllerResponse"]
+- !private ["PSo8Optional", "delegate"]
+- ["PSo8Optional", "didReceiveResponseFromController"]
+- !private ["PSo8Optional", "existingTemplate"]
+- ["PSo8Optional", "init"]
+- ["PSo8Optional", "isAwaitingResponse"]
+- ["PSo8Optional", "isFirstResponse"]
+- ["PSo8Optional", "parametersAreValid"]
+- !private ["PSo8Optional", "presentViewController"]
+- ["PSo8Optional", "presentWebControllerWithRequest"]
+- ["PSo8Optional", "processRequest"]
+- ["PSo8Optional", "processSpecificRequest"]
+- !private ["PSo8Optional", "raise"]
+- ["PSo8Optional", "redirectURL"]
+- !private ["PSo8Optional", "requestToLoad"]
+- ["PSo8Optional", "startInHandler"]
+- ["PSo8Optional", "startServiceInController"]
+- ["PSo8Optional", "webController"]
+- ["PSo8Optional", ""]
+- !private ["Sq", "None"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "characters"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "filter"]
+- !private ["Ps30RangeReplaceableCollectionType", "first"]
+- !private ["Ps30RangeReplaceableCollectionType", "map"]
+- !private ["Ps16RawRepresentable", "Concurrency"]
+- !private ["Ps16RawRepresentable", "NoRequestToLoad"]
+- !private ["Ps16RawRepresentable", "WebControllerNil"]
+- !private ["Ps16RawRepresentable", "error"]
+- !private ["C9Alamofire7Request", "request"]
+- !private ["Vs12ReverseIndex", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "filter"]
+- !private ["Ps12SequenceType", "first"]
+- !private ["Ps12SequenceType", "map"]
+- !private ["Vs3Set", "deinit"]
+- !private ["Vs8SetIndex", "deinit"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Streamable", "characters"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "characters"]
+- !private ["SS", "deinit"]
+- !private ["Ps30StringInterpolationConvertible", "characters"]
+- !private ["Ps24StringLiteralConvertible", "characters"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "existingTemplate"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "requestToLoad"]
+- !private ["PSo24UIBarPositioningDelegate", "delegate"]
+- !private ["PSo24UIBarPositioningDelegate", "existingTemplate"]
+- !private ["PSo24UIBarPositioningDelegate", "requestToLoad"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "existingTemplate"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "requestToLoad"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "existingTemplate"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "requestToLoad"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "existingTemplate"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "requestToLoad"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "existingTemplate"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "requestToLoad"]
+- !private ["PSo17UIToolbarDelegate", "delegate"]
+- !private ["PSo17UIToolbarDelegate", "existingTemplate"]
+- !private ["PSo17UIToolbarDelegate", "requestToLoad"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "existingTemplate"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "requestToLoad"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "existingTemplate"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo16UIViewController", "requestToLoad"]
+- !private ["P9Alamofire20URLStringConvertible", "characters"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "characters"]
+- !private ["Sp", "deinit"]
+- !private ["SP", "deinit"]
+- !private ["PSo20WKNavigationDelegate", "delegate"]
+- !private ["PSo20WKNavigationDelegate", "existingTemplate"]
+- !private ["PSo20WKNavigationDelegate", "requestToLoad"]
+- !private ["C16MobileConnectSDK13WebController", "deinit"]
+- !private ["C16MobileConnectSDK13WebController", "existingTemplate"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "BaseMobileConnectServiceRequest"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "MCErrorCode"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "NSException"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "NSLocalizedDescriptionKey"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "NSURL"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "WebController"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "canStartRequesting"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "controllerResponse"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "isAwaitingResponse"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "parametersAreValid"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "presentWebControllerWithRequest"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "processSpecificRequest"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "startInHandler"]
+- !private ["P16MobileConnectSDK21WebControllerDelegate", "webController"]
+- !private ["P16MobileConnectSDK21WebControllerProtocol", "delegate"]
+- !private ["P16MobileConnectSDK21WebControllerProtocol", "existingTemplate"]
+- !private ["P16MobileConnectSDK21WebControllerProtocol", "requestToLoad"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "filter"]
+- !private ["Ps10_ArrayType", "first"]
+- !private ["Ps10_ArrayType", "map"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Vs11_HeapBuffer", "deinit"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Vs26_OptionalNilComparisonType", "None"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "None"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "characters"]
+- !private ["Ps12_Reflectable", "filter"]
+- !private ["Ps12_Reflectable", "first"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "map"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Vs33AutoreleasingUnsafeMutablePointer"
+- "C16MobileConnectSDK24BaseMobileConnectService"
+- !private "C16MobileConnectSDK31BaseMobileConnectServiceRequest"
+- !private "C16MobileConnectSDK17BaseWebController"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "VSS13CharacterView"
+- !private "Vs14ClosedInterval"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Vs15ContiguousArray"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs15DictionaryIndex"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Vs35FlattenBidirectionalCollectionIndex"
+- !private "Vs22FlattenCollectionIndex"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Vs16HalfOpenInterval"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- !private "VVSS13CharacterView5Index"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Vs15LazyFilterIndex"
+- !private "O16MobileConnectSDK11MCErrorCode"
+- !private "Vs20ManagedBufferPointer"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSException"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- "Ps21NilLiteralConvertible"
+- "PSo8Optional"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "Vs12ReverseIndex"
+- !private "Ps12SequenceType"
+- !private "Vs3Set"
+- !private "Vs8SetIndex"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo24UIBarPositioningDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo17UIToolbarDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Sp"
+- !private "SP"
+- !private "PSo20WKNavigationDelegate"
+- !private "C16MobileConnectSDK13WebController"
+- !private "P16MobileConnectSDK21WebControllerDelegate"
+- !private "P16MobileConnectSDK21WebControllerProtocol"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Vs11_HeapBuffer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/JSONModel.build/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AttributeResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/Enums/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/MobileConnectSDK/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MobileConnectSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/WebKit.swiftmodule"
+interface-hash: "ea7fd3213946f0f30d29643640cb2421"

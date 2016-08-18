@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MobileConnectSDKProtocol"
+- "MobileConnectSDK"
+provides-nominal:
+- "P16MobileConnectSDK24MobileConnectSDKProtocol"
+- "C16MobileConnectSDK16MobileConnectSDK"
+provides-member:
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", ""]
+- ["C16MobileConnectSDK16MobileConnectSDK", ""]
+provides-dynamic-lookup:
+- "getApplicationEndpoint"
+- "setDelegate"
+- "setClientSecret"
+- "getRedirectURL"
+- "setRedirect"
+- "getClientSecret"
+- "getClientKey"
+- "setClientKey"
+- "getDelegate"
+- "setApplicationEndpoint"
+depends-top-level:
+- !private "NSException"
+- "MobileConnectSDKProtocol"
+- "MobileConnectManagerDelegate"
+- "MobileConnectSDK"
+- "NSURL"
+- "NSObject"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "MobileConnectSDK"]
+- !private ["Ps9AnyObject", "NSException"]
+- ["Ps9AnyObject", "applicationEndpoint"]
+- !private ["Ps9AnyObject", "checkClientKey"]
+- !private ["Ps9AnyObject", "checkClientSecret"]
+- !private ["Ps9AnyObject", "checkDelegate"]
+- !private ["Ps9AnyObject", "checkEndpoint"]
+- !private ["Ps9AnyObject", "checkRedirect"]
+- ["Ps9AnyObject", "clientKey"]
+- ["Ps9AnyObject", "clientSecret"]
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "getApplicationEndpoint"]
+- ["Ps9AnyObject", "getClientKey"]
+- ["Ps9AnyObject", "getClientSecret"]
+- ["Ps9AnyObject", "getDelegate"]
+- ["Ps9AnyObject", "getRedirectURL"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "redirectURL"]
+- ["Ps9AnyObject", "setApplicationEndpoint"]
+- ["Ps9AnyObject", "setClientKey"]
+- ["Ps9AnyObject", "setClientSecret"]
+- ["Ps9AnyObject", "setDelegate"]
+- ["Ps9AnyObject", "setRedirect"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "MobileConnectSDK"]
+- !private ["Ps11CVarArgType", "NSException"]
+- ["Ps11CVarArgType", "applicationEndpoint"]
+- !private ["Ps11CVarArgType", "checkClientKey"]
+- !private ["Ps11CVarArgType", "checkClientSecret"]
+- !private ["Ps11CVarArgType", "checkDelegate"]
+- !private ["Ps11CVarArgType", "checkEndpoint"]
+- !private ["Ps11CVarArgType", "checkRedirect"]
+- ["Ps11CVarArgType", "clientKey"]
+- ["Ps11CVarArgType", "clientSecret"]
+- ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "getApplicationEndpoint"]
+- ["Ps11CVarArgType", "getClientKey"]
+- ["Ps11CVarArgType", "getClientSecret"]
+- ["Ps11CVarArgType", "getDelegate"]
+- ["Ps11CVarArgType", "getRedirectURL"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "redirectURL"]
+- ["Ps11CVarArgType", "setApplicationEndpoint"]
+- ["Ps11CVarArgType", "setClientKey"]
+- ["Ps11CVarArgType", "setClientSecret"]
+- ["Ps11CVarArgType", "setDelegate"]
+- ["Ps11CVarArgType", "setRedirect"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "MobileConnectSDK"]
+- !private ["Ps28CustomDebugStringConvertible", "NSException"]
+- ["Ps28CustomDebugStringConvertible", "applicationEndpoint"]
+- !private ["Ps28CustomDebugStringConvertible", "checkClientKey"]
+- !private ["Ps28CustomDebugStringConvertible", "checkClientSecret"]
+- !private ["Ps28CustomDebugStringConvertible", "checkDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "checkEndpoint"]
+- !private ["Ps28CustomDebugStringConvertible", "checkRedirect"]
+- ["Ps28CustomDebugStringConvertible", "clientKey"]
+- ["Ps28CustomDebugStringConvertible", "clientSecret"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "getApplicationEndpoint"]
+- ["Ps28CustomDebugStringConvertible", "getClientKey"]
+- ["Ps28CustomDebugStringConvertible", "getClientSecret"]
+- ["Ps28CustomDebugStringConvertible", "getDelegate"]
+- ["Ps28CustomDebugStringConvertible", "getRedirectURL"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "redirectURL"]
+- ["Ps28CustomDebugStringConvertible", "setApplicationEndpoint"]
+- ["Ps28CustomDebugStringConvertible", "setClientKey"]
+- ["Ps28CustomDebugStringConvertible", "setClientSecret"]
+- ["Ps28CustomDebugStringConvertible", "setDelegate"]
+- ["Ps28CustomDebugStringConvertible", "setRedirect"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "MobileConnectSDK"]
+- !private ["Ps23CustomStringConvertible", "NSException"]
+- ["Ps23CustomStringConvertible", "applicationEndpoint"]
+- !private ["Ps23CustomStringConvertible", "checkClientKey"]
+- !private ["Ps23CustomStringConvertible", "checkClientSecret"]
+- !private ["Ps23CustomStringConvertible", "checkDelegate"]
+- !private ["Ps23CustomStringConvertible", "checkEndpoint"]
+- !private ["Ps23CustomStringConvertible", "checkRedirect"]
+- ["Ps23CustomStringConvertible", "clientKey"]
+- ["Ps23CustomStringConvertible", "clientSecret"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "getApplicationEndpoint"]
+- ["Ps23CustomStringConvertible", "getClientKey"]
+- ["Ps23CustomStringConvertible", "getClientSecret"]
+- ["Ps23CustomStringConvertible", "getDelegate"]
+- ["Ps23CustomStringConvertible", "getRedirectURL"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "redirectURL"]
+- ["Ps23CustomStringConvertible", "setApplicationEndpoint"]
+- ["Ps23CustomStringConvertible", "setClientKey"]
+- ["Ps23CustomStringConvertible", "setClientSecret"]
+- ["Ps23CustomStringConvertible", "setDelegate"]
+- ["Ps23CustomStringConvertible", "setRedirect"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MobileConnectSDK"]
+- !private ["Ps9Equatable", "NSException"]
+- ["Ps9Equatable", "applicationEndpoint"]
+- !private ["Ps9Equatable", "checkClientKey"]
+- !private ["Ps9Equatable", "checkClientSecret"]
+- !private ["Ps9Equatable", "checkDelegate"]
+- !private ["Ps9Equatable", "checkEndpoint"]
+- !private ["Ps9Equatable", "checkRedirect"]
+- ["Ps9Equatable", "clientKey"]
+- ["Ps9Equatable", "clientSecret"]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "getApplicationEndpoint"]
+- ["Ps9Equatable", "getClientKey"]
+- ["Ps9Equatable", "getClientSecret"]
+- ["Ps9Equatable", "getDelegate"]
+- ["Ps9Equatable", "getRedirectURL"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "redirectURL"]
+- ["Ps9Equatable", "setApplicationEndpoint"]
+- ["Ps9Equatable", "setClientKey"]
+- ["Ps9Equatable", "setClientSecret"]
+- ["Ps9Equatable", "setDelegate"]
+- ["Ps9Equatable", "setRedirect"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "MobileConnectSDK"]
+- !private ["Ps8Hashable", "NSException"]
+- ["Ps8Hashable", "applicationEndpoint"]
+- !private ["Ps8Hashable", "checkClientKey"]
+- !private ["Ps8Hashable", "checkClientSecret"]
+- !private ["Ps8Hashable", "checkDelegate"]
+- !private ["Ps8Hashable", "checkEndpoint"]
+- !private ["Ps8Hashable", "checkRedirect"]
+- ["Ps8Hashable", "clientKey"]
+- ["Ps8Hashable", "clientSecret"]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "getApplicationEndpoint"]
+- ["Ps8Hashable", "getClientKey"]
+- ["Ps8Hashable", "getClientSecret"]
+- ["Ps8Hashable", "getDelegate"]
+- ["Ps8Hashable", "getRedirectURL"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "redirectURL"]
+- ["Ps8Hashable", "setApplicationEndpoint"]
+- ["Ps8Hashable", "setClientKey"]
+- ["Ps8Hashable", "setClientSecret"]
+- ["Ps8Hashable", "setDelegate"]
+- ["Ps8Hashable", "setRedirect"]
+- ["Ps8Hashable", ""]
+- !private ["PSo6Ignore", "MobileConnectSDK"]
+- !private ["PSo6Ignore", "NSException"]
+- ["PSo6Ignore", "applicationEndpoint"]
+- !private ["PSo6Ignore", "checkClientKey"]
+- !private ["PSo6Ignore", "checkClientSecret"]
+- !private ["PSo6Ignore", "checkDelegate"]
+- !private ["PSo6Ignore", "checkEndpoint"]
+- !private ["PSo6Ignore", "checkRedirect"]
+- ["PSo6Ignore", "clientKey"]
+- ["PSo6Ignore", "clientSecret"]
+- ["PSo6Ignore", "delegate"]
+- ["PSo6Ignore", "getApplicationEndpoint"]
+- ["PSo6Ignore", "getClientKey"]
+- ["PSo6Ignore", "getClientSecret"]
+- ["PSo6Ignore", "getDelegate"]
+- ["PSo6Ignore", "getRedirectURL"]
+- ["PSo6Ignore", "init"]
+- ["PSo6Ignore", "redirectURL"]
+- ["PSo6Ignore", "setApplicationEndpoint"]
+- ["PSo6Ignore", "setClientKey"]
+- ["PSo6Ignore", "setClientSecret"]
+- ["PSo6Ignore", "setDelegate"]
+- ["PSo6Ignore", "setRedirect"]
+- ["PSo6Ignore", ""]
+- !private ["PSo5Index", "MobileConnectSDK"]
+- !private ["PSo5Index", "NSException"]
+- ["PSo5Index", "applicationEndpoint"]
+- !private ["PSo5Index", "checkClientKey"]
+- !private ["PSo5Index", "checkClientSecret"]
+- !private ["PSo5Index", "checkDelegate"]
+- !private ["PSo5Index", "checkEndpoint"]
+- !private ["PSo5Index", "checkRedirect"]
+- ["PSo5Index", "clientKey"]
+- ["PSo5Index", "clientSecret"]
+- ["PSo5Index", "delegate"]
+- ["PSo5Index", "getApplicationEndpoint"]
+- ["PSo5Index", "getClientKey"]
+- ["PSo5Index", "getClientSecret"]
+- ["PSo5Index", "getDelegate"]
+- ["PSo5Index", "getRedirectURL"]
+- ["PSo5Index", "init"]
+- ["PSo5Index", "redirectURL"]
+- ["PSo5Index", "setApplicationEndpoint"]
+- ["PSo5Index", "setClientKey"]
+- ["PSo5Index", "setClientSecret"]
+- ["PSo5Index", "setDelegate"]
+- ["PSo5Index", "setRedirect"]
+- ["PSo5Index", ""]
+- ["C16MobileConnectSDK16MobileConnectSDK", "MobileConnectManagerDelegate"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "MobileConnectSDK"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "NSException"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "NSURL"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "String"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "applicationEndpoint"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "clientKey"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "clientSecret"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "deinit"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "delegate"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "getApplicationEndpoint"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "getClientKey"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "getClientSecret"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "getDelegate"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "getRedirectURL"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "init"]
+- !private ["C16MobileConnectSDK16MobileConnectSDK", "redirectURL"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "setApplicationEndpoint"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "setClientKey"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "setClientSecret"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "setDelegate"]
+- ["C16MobileConnectSDK16MobileConnectSDK", "setRedirect"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "MobileConnectSDK"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "NSException"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", "NSURL"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", "String"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "applicationEndpoint"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "clientKey"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "clientSecret"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "delegate"]
+- !private ["P16MobileConnectSDK24MobileConnectSDKProtocol", "redirectURL"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", "setApplicationEndpoint"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", "setClientKey"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", "setClientSecret"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", "setRedirect"]
+- ["P16MobileConnectSDK24MobileConnectSDKProtocol", ""]
+- !private ["PSo8NSCoding", "checkClientKey"]
+- !private ["PSo8NSCoding", "checkClientSecret"]
+- !private ["PSo8NSCoding", "checkDelegate"]
+- !private ["PSo8NSCoding", "checkEndpoint"]
+- !private ["PSo8NSCoding", "checkRedirect"]
+- !private ["PSo9NSCopying", "checkClientKey"]
+- !private ["PSo9NSCopying", "checkClientSecret"]
+- !private ["PSo9NSCopying", "checkDelegate"]
+- !private ["PSo9NSCopying", "checkEndpoint"]
+- !private ["PSo9NSCopying", "checkRedirect"]
+- !private ["CSo11NSException", "checkClientKey"]
+- !private ["CSo11NSException", "checkClientSecret"]
+- !private ["CSo11NSException", "checkDelegate"]
+- !private ["CSo11NSException", "checkEndpoint"]
+- !private ["CSo11NSException", "checkRedirect"]
+- ["CSo8NSObject", "MobileConnectManagerDelegate"]
+- !private ["CSo8NSObject", "MobileConnectSDK"]
+- !private ["CSo8NSObject", "NSException"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "applicationEndpoint"]
+- !private ["CSo8NSObject", "checkClientKey"]
+- !private ["CSo8NSObject", "checkClientSecret"]
+- !private ["CSo8NSObject", "checkDelegate"]
+- !private ["CSo8NSObject", "checkEndpoint"]
+- !private ["CSo8NSObject", "checkRedirect"]
+- ["CSo8NSObject", "clientKey"]
+- ["CSo8NSObject", "clientSecret"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "getApplicationEndpoint"]
+- ["CSo8NSObject", "getClientKey"]
+- ["CSo8NSObject", "getClientSecret"]
+- ["CSo8NSObject", "getDelegate"]
+- ["CSo8NSObject", "getRedirectURL"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "redirectURL"]
+- ["CSo8NSObject", "setApplicationEndpoint"]
+- ["CSo8NSObject", "setClientKey"]
+- ["CSo8NSObject", "setClientSecret"]
+- ["CSo8NSObject", "setDelegate"]
+- ["CSo8NSObject", "setRedirect"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "MobileConnectSDK"]
+- !private ["PSo16NSObjectProtocol", "NSException"]
+- ["PSo16NSObjectProtocol", "applicationEndpoint"]
+- !private ["PSo16NSObjectProtocol", "checkClientKey"]
+- !private ["PSo16NSObjectProtocol", "checkClientSecret"]
+- !private ["PSo16NSObjectProtocol", "checkDelegate"]
+- !private ["PSo16NSObjectProtocol", "checkEndpoint"]
+- !private ["PSo16NSObjectProtocol", "checkRedirect"]
+- ["PSo16NSObjectProtocol", "clientKey"]
+- ["PSo16NSObjectProtocol", "clientSecret"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "getApplicationEndpoint"]
+- ["PSo16NSObjectProtocol", "getClientKey"]
+- ["PSo16NSObjectProtocol", "getClientSecret"]
+- ["PSo16NSObjectProtocol", "getDelegate"]
+- ["PSo16NSObjectProtocol", "getRedirectURL"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "redirectURL"]
+- ["PSo16NSObjectProtocol", "setApplicationEndpoint"]
+- ["PSo16NSObjectProtocol", "setClientKey"]
+- ["PSo16NSObjectProtocol", "setClientSecret"]
+- ["PSo16NSObjectProtocol", "setDelegate"]
+- ["PSo16NSObjectProtocol", "setRedirect"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo8Optional", "MobileConnectSDK"]
+- !private ["PSo8Optional", "NSException"]
+- ["PSo8Optional", "applicationEndpoint"]
+- !private ["PSo8Optional", "checkClientKey"]
+- !private ["PSo8Optional", "checkClientSecret"]
+- !private ["PSo8Optional", "checkDelegate"]
+- !private ["PSo8Optional", "checkEndpoint"]
+- !private ["PSo8Optional", "checkRedirect"]
+- ["PSo8Optional", "clientKey"]
+- ["PSo8Optional", "clientSecret"]
+- ["PSo8Optional", "delegate"]
+- ["PSo8Optional", "getApplicationEndpoint"]
+- ["PSo8Optional", "getClientKey"]
+- ["PSo8Optional", "getClientSecret"]
+- ["PSo8Optional", "getDelegate"]
+- ["PSo8Optional", "getRedirectURL"]
+- ["PSo8Optional", "init"]
+- ["PSo8Optional", "redirectURL"]
+- ["PSo8Optional", "setApplicationEndpoint"]
+- ["PSo8Optional", "setClientKey"]
+- ["PSo8Optional", "setClientSecret"]
+- ["PSo8Optional", "setDelegate"]
+- ["PSo8Optional", "setRedirect"]
+- ["PSo8Optional", ""]
+- !private ["Sq", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- "C16MobileConnectSDK16MobileConnectSDK"
+- "P16MobileConnectSDK24MobileConnectSDKProtocol"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSException"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo8Optional"
+- !private "Sq"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphoneos/JSONModel.build/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/Enums/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCJWTDecoder.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/MobileConnectSDK/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphoneos/MobileConnectSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WebKit.swiftmodule"
+interface-hash: "1f8991ffb95eb57929dbd93375dd155a"

@@ -1,0 +1,602 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C4Demo14ViewController"
+provides-member:
+- ["C4Demo14ViewController", ""]
+provides-dynamic-lookup:
+- "actionWithoutPhoneWithManager"
+- "phoneNumberTextField"
+- "actionWithPhoneAndWithManager"
+- "segmentedControl"
+- "currentError"
+- "segmentChanged"
+- "prepareForSegue"
+- "getTokenAction"
+- "launchTokenViewerWithTokenResponseModel"
+- "currentTokenResponse"
+depends-top-level:
+- "UIViewController"
+- "String"
+- !private "=="
+- "TokenResponseModel"
+- "ViewController"
+- "UITextField"
+- !private "TokenInfoViewController"
+- "AnyObject"
+- "StringLiteralType"
+- "MobileConnectManager"
+- !private "kSegueToTokenResponseViewer"
+- "NSError"
+- "UIStoryboardSegue"
+- "UISegmentedControl"
+depends-member:
+- !private ["Ps9AnyObject", "MobileConnectManager"]
+- ["Ps9AnyObject", "actionWithPhoneAndWithManager"]
+- ["Ps9AnyObject", "actionWithoutPhoneWithManager"]
+- ["Ps9AnyObject", "currentError"]
+- ["Ps9AnyObject", "currentTokenResponse"]
+- !private ["Ps9AnyObject", "destinationViewController"]
+- !private ["Ps9AnyObject", "error"]
+- ["Ps9AnyObject", "getTokenAction"]
+- !private ["Ps9AnyObject", "hidden"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kSegueToTokenResponseViewer"]
+- ["Ps9AnyObject", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- ["Ps9AnyObject", "phoneNumberTextField"]
+- ["Ps9AnyObject", "prepareForSegue"]
+- ["Ps9AnyObject", "segmentChanged"]
+- ["Ps9AnyObject", "segmentedControl"]
+- !private ["Ps9AnyObject", "selectedSegmentIndex"]
+- !private ["Ps9AnyObject", "tokenResponse"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "MobileConnectManager"]
+- ["Ps11CVarArgType", "actionWithPhoneAndWithManager"]
+- ["Ps11CVarArgType", "actionWithoutPhoneWithManager"]
+- ["Ps11CVarArgType", "currentError"]
+- ["Ps11CVarArgType", "currentTokenResponse"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- !private ["Ps11CVarArgType", "error"]
+- ["Ps11CVarArgType", "getTokenAction"]
+- !private ["Ps11CVarArgType", "hidden"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "kSegueToTokenResponseViewer"]
+- ["Ps11CVarArgType", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- ["Ps11CVarArgType", "phoneNumberTextField"]
+- ["Ps11CVarArgType", "prepareForSegue"]
+- ["Ps11CVarArgType", "segmentChanged"]
+- ["Ps11CVarArgType", "segmentedControl"]
+- !private ["Ps11CVarArgType", "selectedSegmentIndex"]
+- !private ["Ps11CVarArgType", "tokenResponse"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "MobileConnectManager"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "actionWithPhoneAndWithManager"]
+- ["Ps28CustomDebugStringConvertible", "actionWithoutPhoneWithManager"]
+- ["Ps28CustomDebugStringConvertible", "currentError"]
+- ["Ps28CustomDebugStringConvertible", "currentTokenResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- ["Ps28CustomDebugStringConvertible", "getTokenAction"]
+- !private ["Ps28CustomDebugStringConvertible", "hidden"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kSegueToTokenResponseViewer"]
+- ["Ps28CustomDebugStringConvertible", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "phoneNumberTextField"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
+- ["Ps28CustomDebugStringConvertible", "segmentChanged"]
+- ["Ps28CustomDebugStringConvertible", "segmentedControl"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedSegmentIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "tokenResponse"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "MobileConnectManager"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "actionWithPhoneAndWithManager"]
+- ["Ps23CustomStringConvertible", "actionWithoutPhoneWithManager"]
+- ["Ps23CustomStringConvertible", "currentError"]
+- ["Ps23CustomStringConvertible", "currentTokenResponse"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- ["Ps23CustomStringConvertible", "getTokenAction"]
+- !private ["Ps23CustomStringConvertible", "hidden"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kSegueToTokenResponseViewer"]
+- ["Ps23CustomStringConvertible", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["Ps23CustomStringConvertible", "phoneNumberTextField"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
+- ["Ps23CustomStringConvertible", "segmentChanged"]
+- ["Ps23CustomStringConvertible", "segmentedControl"]
+- !private ["Ps23CustomStringConvertible", "selectedSegmentIndex"]
+- !private ["Ps23CustomStringConvertible", "tokenResponse"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MobileConnectManager"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "actionWithPhoneAndWithManager"]
+- ["Ps9Equatable", "actionWithoutPhoneWithManager"]
+- ["Ps9Equatable", "currentError"]
+- ["Ps9Equatable", "currentTokenResponse"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "getTokenAction"]
+- !private ["Ps9Equatable", "hidden"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kSegueToTokenResponseViewer"]
+- ["Ps9Equatable", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- ["Ps9Equatable", "phoneNumberTextField"]
+- ["Ps9Equatable", "prepareForSegue"]
+- ["Ps9Equatable", "segmentChanged"]
+- ["Ps9Equatable", "segmentedControl"]
+- !private ["Ps9Equatable", "selectedSegmentIndex"]
+- !private ["Ps9Equatable", "tokenResponse"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "MobileConnectManager"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "actionWithPhoneAndWithManager"]
+- ["Ps8Hashable", "actionWithoutPhoneWithManager"]
+- ["Ps8Hashable", "currentError"]
+- ["Ps8Hashable", "currentTokenResponse"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "getTokenAction"]
+- !private ["Ps8Hashable", "hidden"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kSegueToTokenResponseViewer"]
+- ["Ps8Hashable", "launchTokenViewerWithTokenResponseModel"]
+- !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- ["Ps8Hashable", "phoneNumberTextField"]
+- ["Ps8Hashable", "prepareForSegue"]
+- ["Ps8Hashable", "segmentChanged"]
+- ["Ps8Hashable", "segmentedControl"]
+- !private ["Ps8Hashable", "selectedSegmentIndex"]
+- !private ["Ps8Hashable", "tokenResponse"]
+- ["Ps8Hashable", ""]
+- !private ["PSo6Ignore", "MobileConnectManager"]
+- ["PSo6Ignore", "actionWithPhoneAndWithManager"]
+- ["PSo6Ignore", "actionWithoutPhoneWithManager"]
+- ["PSo6Ignore", "currentError"]
+- ["PSo6Ignore", "currentTokenResponse"]
+- !private ["PSo6Ignore", "destinationViewController"]
+- !private ["PSo6Ignore", "error"]
+- ["PSo6Ignore", "getTokenAction"]
+- !private ["PSo6Ignore", "hidden"]
+- ["PSo6Ignore", "init"]
+- !private ["PSo6Ignore", "kSegueToTokenResponseViewer"]
+- ["PSo6Ignore", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo6Ignore", "performSegueWithIdentifier"]
+- ["PSo6Ignore", "phoneNumberTextField"]
+- ["PSo6Ignore", "prepareForSegue"]
+- ["PSo6Ignore", "segmentChanged"]
+- ["PSo6Ignore", "segmentedControl"]
+- !private ["PSo6Ignore", "selectedSegmentIndex"]
+- !private ["PSo6Ignore", "tokenResponse"]
+- ["PSo6Ignore", ""]
+- !private ["PSo5Index", "MobileConnectManager"]
+- ["PSo5Index", "actionWithPhoneAndWithManager"]
+- ["PSo5Index", "actionWithoutPhoneWithManager"]
+- ["PSo5Index", "currentError"]
+- ["PSo5Index", "currentTokenResponse"]
+- !private ["PSo5Index", "destinationViewController"]
+- !private ["PSo5Index", "error"]
+- ["PSo5Index", "getTokenAction"]
+- !private ["PSo5Index", "hidden"]
+- ["PSo5Index", "init"]
+- !private ["PSo5Index", "kSegueToTokenResponseViewer"]
+- ["PSo5Index", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo5Index", "performSegueWithIdentifier"]
+- ["PSo5Index", "phoneNumberTextField"]
+- ["PSo5Index", "prepareForSegue"]
+- ["PSo5Index", "segmentChanged"]
+- ["PSo5Index", "segmentedControl"]
+- !private ["PSo5Index", "selectedSegmentIndex"]
+- !private ["PSo5Index", "tokenResponse"]
+- ["PSo5Index", ""]
+- !private ["C16MobileConnectSDK20MobileConnectManager", "init"]
+- !private ["PSo8NSCoding", "MobileConnectManager"]
+- ["PSo8NSCoding", "actionWithPhoneAndWithManager"]
+- ["PSo8NSCoding", "actionWithoutPhoneWithManager"]
+- ["PSo8NSCoding", "currentError"]
+- ["PSo8NSCoding", "currentTokenResponse"]
+- !private ["PSo8NSCoding", "error"]
+- ["PSo8NSCoding", "getTokenAction"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kSegueToTokenResponseViewer"]
+- ["PSo8NSCoding", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- ["PSo8NSCoding", "phoneNumberTextField"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- ["PSo8NSCoding", "segmentChanged"]
+- ["PSo8NSCoding", "segmentedControl"]
+- !private ["PSo8NSCoding", "selectedSegmentIndex"]
+- !private ["PSo8NSCoding", "tokenResponse"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "MobileConnectManager"]
+- ["PSo26NSExtensionRequestHandling", "actionWithPhoneAndWithManager"]
+- ["PSo26NSExtensionRequestHandling", "actionWithoutPhoneWithManager"]
+- ["PSo26NSExtensionRequestHandling", "currentError"]
+- ["PSo26NSExtensionRequestHandling", "currentTokenResponse"]
+- !private ["PSo26NSExtensionRequestHandling", "error"]
+- ["PSo26NSExtensionRequestHandling", "getTokenAction"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kSegueToTokenResponseViewer"]
+- ["PSo26NSExtensionRequestHandling", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- ["PSo26NSExtensionRequestHandling", "phoneNumberTextField"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- ["PSo26NSExtensionRequestHandling", "segmentChanged"]
+- ["PSo26NSExtensionRequestHandling", "segmentedControl"]
+- !private ["PSo26NSExtensionRequestHandling", "tokenResponse"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "MobileConnectManager"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "TokenInfoViewController"]
+- ["CSo8NSObject", "TokenResponseModel"]
+- ["CSo8NSObject", "UISegmentedControl"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "actionWithPhoneAndWithManager"]
+- ["CSo8NSObject", "actionWithoutPhoneWithManager"]
+- ["CSo8NSObject", "currentError"]
+- ["CSo8NSObject", "currentTokenResponse"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "getTokenAction"]
+- !private ["CSo8NSObject", "hidden"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kSegueToTokenResponseViewer"]
+- ["CSo8NSObject", "launchTokenViewerWithTokenResponseModel"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "phoneNumberTextField"]
+- ["CSo8NSObject", "prepareForSegue"]
+- ["CSo8NSObject", "segmentChanged"]
+- ["CSo8NSObject", "segmentedControl"]
+- !private ["CSo8NSObject", "selectedSegmentIndex"]
+- !private ["CSo8NSObject", "tokenResponse"]
+- !private ["PSo16NSObjectProtocol", "MobileConnectManager"]
+- ["PSo16NSObjectProtocol", "actionWithPhoneAndWithManager"]
+- ["PSo16NSObjectProtocol", "actionWithoutPhoneWithManager"]
+- ["PSo16NSObjectProtocol", "currentError"]
+- ["PSo16NSObjectProtocol", "currentTokenResponse"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- ["PSo16NSObjectProtocol", "getTokenAction"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kSegueToTokenResponseViewer"]
+- ["PSo16NSObjectProtocol", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "phoneNumberTextField"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- ["PSo16NSObjectProtocol", "segmentChanged"]
+- ["PSo16NSObjectProtocol", "segmentedControl"]
+- !private ["PSo16NSObjectProtocol", "selectedSegmentIndex"]
+- !private ["PSo16NSObjectProtocol", "tokenResponse"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["PSo8Optional", "MobileConnectManager"]
+- ["PSo8Optional", "actionWithPhoneAndWithManager"]
+- ["PSo8Optional", "actionWithoutPhoneWithManager"]
+- ["PSo8Optional", "currentError"]
+- ["PSo8Optional", "currentTokenResponse"]
+- !private ["PSo8Optional", "destinationViewController"]
+- !private ["PSo8Optional", "error"]
+- ["PSo8Optional", "getTokenAction"]
+- !private ["PSo8Optional", "hidden"]
+- ["PSo8Optional", "init"]
+- !private ["PSo8Optional", "kSegueToTokenResponseViewer"]
+- ["PSo8Optional", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo8Optional", "performSegueWithIdentifier"]
+- ["PSo8Optional", "phoneNumberTextField"]
+- ["PSo8Optional", "prepareForSegue"]
+- ["PSo8Optional", "segmentChanged"]
+- ["PSo8Optional", "segmentedControl"]
+- !private ["PSo8Optional", "selectedSegmentIndex"]
+- !private ["PSo8Optional", "tokenResponse"]
+- ["PSo8Optional", ""]
+- ["Sq", "Some"]
+- !private ["C4Demo23TokenInfoViewController", "error"]
+- !private ["C4Demo23TokenInfoViewController", "tokenResponse"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "selectedSegmentIndex"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "selectedSegmentIndex"]
+- !private ["PSo21UIAppearanceContainer", "MobileConnectManager"]
+- ["PSo21UIAppearanceContainer", "actionWithPhoneAndWithManager"]
+- ["PSo21UIAppearanceContainer", "actionWithoutPhoneWithManager"]
+- ["PSo21UIAppearanceContainer", "currentError"]
+- ["PSo21UIAppearanceContainer", "currentTokenResponse"]
+- !private ["PSo21UIAppearanceContainer", "error"]
+- ["PSo21UIAppearanceContainer", "getTokenAction"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kSegueToTokenResponseViewer"]
+- ["PSo21UIAppearanceContainer", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "phoneNumberTextField"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- ["PSo21UIAppearanceContainer", "segmentChanged"]
+- ["PSo21UIAppearanceContainer", "segmentedControl"]
+- !private ["PSo21UIAppearanceContainer", "selectedSegmentIndex"]
+- !private ["PSo21UIAppearanceContainer", "tokenResponse"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo24UIBarPositioningDelegate", "error"]
+- !private ["PSo24UIBarPositioningDelegate", "tokenResponse"]
+- !private ["PSo18UIContentContainer", "MobileConnectManager"]
+- ["PSo18UIContentContainer", "actionWithPhoneAndWithManager"]
+- ["PSo18UIContentContainer", "actionWithoutPhoneWithManager"]
+- ["PSo18UIContentContainer", "currentError"]
+- ["PSo18UIContentContainer", "currentTokenResponse"]
+- !private ["PSo18UIContentContainer", "error"]
+- ["PSo18UIContentContainer", "getTokenAction"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kSegueToTokenResponseViewer"]
+- ["PSo18UIContentContainer", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- ["PSo18UIContentContainer", "phoneNumberTextField"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- ["PSo18UIContentContainer", "segmentChanged"]
+- ["PSo18UIContentContainer", "segmentedControl"]
+- !private ["PSo18UIContentContainer", "tokenResponse"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "hidden"]
+- !private ["CSo9UIControl", "selectedSegmentIndex"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "selectedSegmentIndex"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "selectedSegmentIndex"]
+- !private ["PSo18UIFocusEnvironment", "MobileConnectManager"]
+- ["PSo18UIFocusEnvironment", "actionWithPhoneAndWithManager"]
+- ["PSo18UIFocusEnvironment", "actionWithoutPhoneWithManager"]
+- ["PSo18UIFocusEnvironment", "currentError"]
+- ["PSo18UIFocusEnvironment", "currentTokenResponse"]
+- !private ["PSo18UIFocusEnvironment", "error"]
+- ["PSo18UIFocusEnvironment", "getTokenAction"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kSegueToTokenResponseViewer"]
+- ["PSo18UIFocusEnvironment", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "phoneNumberTextField"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- ["PSo18UIFocusEnvironment", "segmentChanged"]
+- ["PSo18UIFocusEnvironment", "segmentedControl"]
+- !private ["PSo18UIFocusEnvironment", "selectedSegmentIndex"]
+- !private ["PSo18UIFocusEnvironment", "tokenResponse"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "hidden"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "MobileConnectManager"]
+- ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "TokenInfoViewController"]
+- ["CSo11UIResponder", "TokenResponseModel"]
+- ["CSo11UIResponder", "UISegmentedControl"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "actionWithPhoneAndWithManager"]
+- ["CSo11UIResponder", "actionWithoutPhoneWithManager"]
+- ["CSo11UIResponder", "currentError"]
+- ["CSo11UIResponder", "currentTokenResponse"]
+- !private ["CSo11UIResponder", "error"]
+- ["CSo11UIResponder", "getTokenAction"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kSegueToTokenResponseViewer"]
+- ["CSo11UIResponder", "launchTokenViewerWithTokenResponseModel"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- ["CSo11UIResponder", "phoneNumberTextField"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- ["CSo11UIResponder", "segmentChanged"]
+- ["CSo11UIResponder", "segmentedControl"]
+- !private ["CSo11UIResponder", "selectedSegmentIndex"]
+- !private ["CSo11UIResponder", "tokenResponse"]
+- !private ["PSo20UIScrollViewDelegate", "error"]
+- !private ["PSo20UIScrollViewDelegate", "tokenResponse"]
+- !private ["CSo18UISegmentedControl", "selectedSegmentIndex"]
+- !private ["PSo16UIStateRestoring", "MobileConnectManager"]
+- ["PSo16UIStateRestoring", "actionWithPhoneAndWithManager"]
+- ["PSo16UIStateRestoring", "actionWithoutPhoneWithManager"]
+- ["PSo16UIStateRestoring", "currentError"]
+- ["PSo16UIStateRestoring", "currentTokenResponse"]
+- !private ["PSo16UIStateRestoring", "error"]
+- ["PSo16UIStateRestoring", "getTokenAction"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kSegueToTokenResponseViewer"]
+- ["PSo16UIStateRestoring", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- ["PSo16UIStateRestoring", "phoneNumberTextField"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- ["PSo16UIStateRestoring", "segmentChanged"]
+- ["PSo16UIStateRestoring", "segmentedControl"]
+- !private ["PSo16UIStateRestoring", "tokenResponse"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["PSo21UITableViewDataSource", "error"]
+- !private ["PSo21UITableViewDataSource", "tokenResponse"]
+- !private ["PSo19UITableViewDelegate", "error"]
+- !private ["PSo19UITableViewDelegate", "tokenResponse"]
+- !private ["CSo11UITextField", "hidden"]
+- !private ["PSo11UITextInput", "hidden"]
+- !private ["PSo17UITextInputTraits", "hidden"]
+- !private ["PSo17UIToolbarDelegate", "error"]
+- !private ["PSo17UIToolbarDelegate", "tokenResponse"]
+- !private ["PSo18UITraitEnvironment", "MobileConnectManager"]
+- ["PSo18UITraitEnvironment", "actionWithPhoneAndWithManager"]
+- ["PSo18UITraitEnvironment", "actionWithoutPhoneWithManager"]
+- ["PSo18UITraitEnvironment", "currentError"]
+- ["PSo18UITraitEnvironment", "currentTokenResponse"]
+- !private ["PSo18UITraitEnvironment", "error"]
+- ["PSo18UITraitEnvironment", "getTokenAction"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kSegueToTokenResponseViewer"]
+- ["PSo18UITraitEnvironment", "launchTokenViewerWithTokenResponseModel"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UITraitEnvironment", "phoneNumberTextField"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- ["PSo18UITraitEnvironment", "segmentChanged"]
+- ["PSo18UITraitEnvironment", "segmentedControl"]
+- !private ["PSo18UITraitEnvironment", "selectedSegmentIndex"]
+- !private ["PSo18UITraitEnvironment", "tokenResponse"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "selectedSegmentIndex"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "MobileConnectManager"]
+- ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "TokenInfoViewController"]
+- ["CSo16UIViewController", "TokenResponseModel"]
+- ["CSo16UIViewController", "UISegmentedControl"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "actionWithPhoneAndWithManager"]
+- ["CSo16UIViewController", "actionWithoutPhoneWithManager"]
+- ["CSo16UIViewController", "currentError"]
+- ["CSo16UIViewController", "currentTokenResponse"]
+- !private ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "error"]
+- ["CSo16UIViewController", "getTokenAction"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kSegueToTokenResponseViewer"]
+- ["CSo16UIViewController", "launchTokenViewerWithTokenResponseModel"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- ["CSo16UIViewController", "phoneNumberTextField"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- ["CSo16UIViewController", "segmentChanged"]
+- ["CSo16UIViewController", "segmentedControl"]
+- !private ["CSo16UIViewController", "tokenResponse"]
+- ["CSo16UIViewController", ""]
+- ["C4Demo14ViewController", "AnyObject"]
+- ["C4Demo14ViewController", "MobileConnectManager"]
+- ["C4Demo14ViewController", "NSError"]
+- !private ["C4Demo14ViewController", "TokenInfoViewController"]
+- ["C4Demo14ViewController", "TokenResponseModel"]
+- ["C4Demo14ViewController", "UISegmentedControl"]
+- ["C4Demo14ViewController", "UIStoryboardSegue"]
+- ["C4Demo14ViewController", "UITextField"]
+- ["C4Demo14ViewController", "actionWithPhoneAndWithManager"]
+- ["C4Demo14ViewController", "actionWithoutPhoneWithManager"]
+- ["C4Demo14ViewController", "currentError"]
+- ["C4Demo14ViewController", "currentTokenResponse"]
+- ["C4Demo14ViewController", "deinit"]
+- ["C4Demo14ViewController", "getTokenAction"]
+- ["C4Demo14ViewController", "init"]
+- !private ["C4Demo14ViewController", "kSegueToTokenResponseViewer"]
+- ["C4Demo14ViewController", "launchTokenViewerWithTokenResponseModel"]
+- !private ["C4Demo14ViewController", "performSegueWithIdentifier"]
+- ["C4Demo14ViewController", "phoneNumberTextField"]
+- ["C4Demo14ViewController", "prepareForSegue"]
+- ["C4Demo14ViewController", "segmentChanged"]
+- ["C4Demo14ViewController", "segmentedControl"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hidden"]
+- !private ["Ps12_Reflectable", "selectedSegmentIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- !private "C16MobileConnectSDK20MobileConnectManager"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "PSo8Optional"
+- "Sq"
+- !private "C4Demo23TokenInfoViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo24UIBarPositioningDelegate"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "PSo20UIScrollViewDelegate"
+- !private "CSo18UISegmentedControl"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "PSo17UIToolbarDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C4Demo14ViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Modules/MobileConnectSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Modules/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectSDK-Swift.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MCJWTDecoder.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MCError.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Headers/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/MobileConnectSDK/MobileConnectSDK.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WebKit.swiftmodule"
+interface-hash: "3f3b7225714c630cb9c723f1c5f1fa11"

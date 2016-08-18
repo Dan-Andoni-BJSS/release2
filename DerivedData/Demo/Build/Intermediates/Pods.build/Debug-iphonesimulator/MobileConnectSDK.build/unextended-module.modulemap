@@ -1,0 +1,10 @@
+framework module MobileConnectSDK {
+  umbrella header "MobileConnectSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MobileConnectSDK.__Swift {
+    exclude header "MobileConnectSDK-Swift.h"
+}

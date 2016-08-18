@@ -1,0 +1,571 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MobileConnectButton"
+provides-nominal:
+- "C16MobileConnectSDK19MobileConnectButton"
+provides-member:
+- ["C16MobileConnectSDK19MobileConnectButton", ""]
+provides-dynamic-lookup:
+- "buttonTouched"
+- "configureButton"
+- "configureView"
+depends-top-level:
+- "UIViewController"
+- !private "CGRectMake"
+- "CGRect"
+- !private "UIControlEvents"
+- !private "Resources"
+- "UIButtonType"
+- !private "UIControlState"
+- !private "UIResponder"
+- "NSCoder"
+- "UIButton"
+- "MobileConnectButton"
+- !private "!"
+- !private "NSException"
+depends-member:
+- !private ["Ps9AnyObject", "CGRectMake"]
+- !private ["Ps9AnyObject", "MobileConnectButton"]
+- !private ["Ps9AnyObject", "NSException"]
+- !private ["Ps9AnyObject", "Resources"]
+- !private ["Ps9AnyObject", "UIControlEvents"]
+- !private ["Ps9AnyObject", "UIControlState"]
+- !private ["Ps9AnyObject", "addTarget"]
+- ["Ps9AnyObject", "buttonTouched"]
+- !private ["Ps9AnyObject", "checkController"]
+- ["Ps9AnyObject", "configureButton"]
+- ["Ps9AnyObject", "configureView"]
+- ["Ps9AnyObject", "containerController"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mobileConnectImage"]
+- !private ["Ps9AnyObject", "nextResponder"]
+- !private ["Ps9AnyObject", "setBackgroundImage"]
+- !private ["Ps9AnyObject", "sizeToFit"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "Normal"]
+- !private ["Ps23ArrayLiteralConvertible", "TouchUpInside"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "CGRectMake"]
+- !private ["Ps11CVarArgType", "MobileConnectButton"]
+- !private ["Ps11CVarArgType", "NSException"]
+- !private ["Ps11CVarArgType", "Resources"]
+- !private ["Ps11CVarArgType", "UIControlEvents"]
+- !private ["Ps11CVarArgType", "UIControlState"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- ["Ps11CVarArgType", "buttonTouched"]
+- !private ["Ps11CVarArgType", "checkController"]
+- ["Ps11CVarArgType", "configureButton"]
+- ["Ps11CVarArgType", "configureView"]
+- ["Ps11CVarArgType", "containerController"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "nextResponder"]
+- !private ["Ps11CVarArgType", "setBackgroundImage"]
+- !private ["Ps11CVarArgType", "sizeToFit"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectMake"]
+- !private ["Ps28CustomDebugStringConvertible", "MobileConnectButton"]
+- !private ["Ps28CustomDebugStringConvertible", "NSException"]
+- !private ["Ps28CustomDebugStringConvertible", "Resources"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIControlEvents"]
+- !private ["Ps28CustomDebugStringConvertible", "UIControlState"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- ["Ps28CustomDebugStringConvertible", "buttonTouched"]
+- !private ["Ps28CustomDebugStringConvertible", "checkController"]
+- ["Ps28CustomDebugStringConvertible", "configureButton"]
+- ["Ps28CustomDebugStringConvertible", "configureView"]
+- ["Ps28CustomDebugStringConvertible", "containerController"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "nextResponder"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackgroundImage"]
+- !private ["Ps28CustomDebugStringConvertible", "sizeToFit"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGRectMake"]
+- !private ["Ps23CustomStringConvertible", "MobileConnectButton"]
+- !private ["Ps23CustomStringConvertible", "NSException"]
+- !private ["Ps23CustomStringConvertible", "Resources"]
+- !private ["Ps23CustomStringConvertible", "UIControlEvents"]
+- !private ["Ps23CustomStringConvertible", "UIControlState"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- ["Ps23CustomStringConvertible", "buttonTouched"]
+- !private ["Ps23CustomStringConvertible", "checkController"]
+- ["Ps23CustomStringConvertible", "configureButton"]
+- ["Ps23CustomStringConvertible", "configureView"]
+- ["Ps23CustomStringConvertible", "containerController"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "nextResponder"]
+- !private ["Ps23CustomStringConvertible", "setBackgroundImage"]
+- !private ["Ps23CustomStringConvertible", "sizeToFit"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGRectMake"]
+- !private ["Ps9Equatable", "MobileConnectButton"]
+- !private ["Ps9Equatable", "NSException"]
+- !private ["Ps9Equatable", "Normal"]
+- !private ["Ps9Equatable", "Resources"]
+- !private ["Ps9Equatable", "TouchUpInside"]
+- !private ["Ps9Equatable", "UIControlEvents"]
+- !private ["Ps9Equatable", "UIControlState"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addTarget"]
+- ["Ps9Equatable", "buttonTouched"]
+- !private ["Ps9Equatable", "checkController"]
+- ["Ps9Equatable", "configureButton"]
+- ["Ps9Equatable", "configureView"]
+- ["Ps9Equatable", "containerController"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "nextResponder"]
+- !private ["Ps9Equatable", "setBackgroundImage"]
+- !private ["Ps9Equatable", "sizeToFit"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGRectMake"]
+- !private ["Ps8Hashable", "MobileConnectButton"]
+- !private ["Ps8Hashable", "NSException"]
+- !private ["Ps8Hashable", "Resources"]
+- !private ["Ps8Hashable", "UIControlEvents"]
+- !private ["Ps8Hashable", "UIControlState"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addTarget"]
+- ["Ps8Hashable", "buttonTouched"]
+- !private ["Ps8Hashable", "checkController"]
+- ["Ps8Hashable", "configureButton"]
+- ["Ps8Hashable", "configureView"]
+- ["Ps8Hashable", "containerController"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "nextResponder"]
+- !private ["Ps8Hashable", "setBackgroundImage"]
+- !private ["Ps8Hashable", "sizeToFit"]
+- ["Ps8Hashable", ""]
+- !private ["PSo6Ignore", "CGRectMake"]
+- !private ["PSo6Ignore", "MobileConnectButton"]
+- !private ["PSo6Ignore", "NSException"]
+- !private ["PSo6Ignore", "Resources"]
+- !private ["PSo6Ignore", "UIControlEvents"]
+- !private ["PSo6Ignore", "UIControlState"]
+- !private ["PSo6Ignore", "addTarget"]
+- ["PSo6Ignore", "buttonTouched"]
+- !private ["PSo6Ignore", "checkController"]
+- ["PSo6Ignore", "configureButton"]
+- ["PSo6Ignore", "configureView"]
+- ["PSo6Ignore", "containerController"]
+- ["PSo6Ignore", "init"]
+- !private ["PSo6Ignore", "nextResponder"]
+- !private ["PSo6Ignore", "setBackgroundImage"]
+- !private ["PSo6Ignore", "sizeToFit"]
+- ["PSo6Ignore", ""]
+- !private ["PSo5Index", "CGRectMake"]
+- !private ["PSo5Index", "MobileConnectButton"]
+- !private ["PSo5Index", "NSException"]
+- !private ["PSo5Index", "Resources"]
+- !private ["PSo5Index", "UIControlEvents"]
+- !private ["PSo5Index", "UIControlState"]
+- !private ["PSo5Index", "addTarget"]
+- ["PSo5Index", "buttonTouched"]
+- !private ["PSo5Index", "checkController"]
+- ["PSo5Index", "configureButton"]
+- ["PSo5Index", "configureView"]
+- ["PSo5Index", "containerController"]
+- ["PSo5Index", "init"]
+- !private ["PSo5Index", "nextResponder"]
+- !private ["PSo5Index", "setBackgroundImage"]
+- !private ["PSo5Index", "sizeToFit"]
+- ["PSo5Index", ""]
+- ["C16MobileConnectSDK19MobileConnectButton", "CGRect"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "CGRectMake"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "MobileConnectButton"]
+- ["C16MobileConnectSDK19MobileConnectButton", "NSCoder"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "NSException"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "Resources"]
+- ["C16MobileConnectSDK19MobileConnectButton", "UIButtonType"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "UIControlEvents"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "UIControlState"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "UIResponder"]
+- ["C16MobileConnectSDK19MobileConnectButton", "UIViewController"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "addTarget"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "buttonTouched"]
+- ["C16MobileConnectSDK19MobileConnectButton", "configureButton"]
+- ["C16MobileConnectSDK19MobileConnectButton", "configureView"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "containerController"]
+- ["C16MobileConnectSDK19MobileConnectButton", "deinit"]
+- ["C16MobileConnectSDK19MobileConnectButton", "init"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "setBackgroundImage"]
+- !private ["C16MobileConnectSDK19MobileConnectButton", "sizeToFit"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "MobileConnectButton"]
+- !private ["PSo8NSCoding", "NSException"]
+- !private ["PSo8NSCoding", "Resources"]
+- !private ["PSo8NSCoding", "UIControlEvents"]
+- !private ["PSo8NSCoding", "UIControlState"]
+- !private ["PSo8NSCoding", "addTarget"]
+- ["PSo8NSCoding", "buttonTouched"]
+- !private ["PSo8NSCoding", "checkController"]
+- ["PSo8NSCoding", "configureButton"]
+- ["PSo8NSCoding", "configureView"]
+- ["PSo8NSCoding", "containerController"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "setBackgroundImage"]
+- !private ["PSo8NSCoding", "sizeToFit"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "checkController"]
+- !private ["CSo11NSException", "checkController"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- !private ["CSo8NSObject", "MobileConnectButton"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "NSException"]
+- !private ["CSo8NSObject", "Resources"]
+- ["CSo8NSObject", "UIButtonType"]
+- !private ["CSo8NSObject", "UIControlEvents"]
+- !private ["CSo8NSObject", "UIControlState"]
+- !private ["CSo8NSObject", "UIResponder"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "buttonTouched"]
+- !private ["CSo8NSObject", "checkController"]
+- ["CSo8NSObject", "configureButton"]
+- ["CSo8NSObject", "configureView"]
+- ["CSo8NSObject", "containerController"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "nextResponder"]
+- !private ["CSo8NSObject", "setBackgroundImage"]
+- !private ["CSo8NSObject", "sizeToFit"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "MobileConnectButton"]
+- !private ["PSo16NSObjectProtocol", "NSException"]
+- !private ["PSo16NSObjectProtocol", "Resources"]
+- !private ["PSo16NSObjectProtocol", "UIControlEvents"]
+- !private ["PSo16NSObjectProtocol", "UIControlState"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- ["PSo16NSObjectProtocol", "buttonTouched"]
+- !private ["PSo16NSObjectProtocol", "checkController"]
+- ["PSo16NSObjectProtocol", "configureButton"]
+- ["PSo16NSObjectProtocol", "configureView"]
+- ["PSo16NSObjectProtocol", "containerController"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "nextResponder"]
+- !private ["PSo16NSObjectProtocol", "setBackgroundImage"]
+- !private ["PSo16NSObjectProtocol", "sizeToFit"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "Normal"]
+- !private ["Ps13OptionSetType", "TouchUpInside"]
+- !private ["PSo8Optional", "CGRectMake"]
+- !private ["PSo8Optional", "MobileConnectButton"]
+- !private ["PSo8Optional", "NSException"]
+- !private ["PSo8Optional", "Resources"]
+- !private ["PSo8Optional", "UIControlEvents"]
+- !private ["PSo8Optional", "UIControlState"]
+- !private ["PSo8Optional", "addTarget"]
+- ["PSo8Optional", "buttonTouched"]
+- !private ["PSo8Optional", "checkController"]
+- ["PSo8Optional", "configureButton"]
+- ["PSo8Optional", "configureView"]
+- ["PSo8Optional", "containerController"]
+- ["PSo8Optional", "init"]
+- !private ["PSo8Optional", "nextResponder"]
+- !private ["PSo8Optional", "setBackgroundImage"]
+- !private ["PSo8Optional", "sizeToFit"]
+- ["PSo8Optional", ""]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Normal"]
+- !private ["Ps16RawRepresentable", "TouchUpInside"]
+- !private ["C16MobileConnectSDK9Resources", "mobileConnectImage"]
+- !private ["Ps14SetAlgebraType", "Normal"]
+- !private ["Ps14SetAlgebraType", "TouchUpInside"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectMake"]
+- !private ["PSo29UIAccessibilityIdentification", "MobileConnectButton"]
+- !private ["PSo29UIAccessibilityIdentification", "NSException"]
+- !private ["PSo29UIAccessibilityIdentification", "Resources"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControlEvents"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControlState"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- ["PSo29UIAccessibilityIdentification", "buttonTouched"]
+- ["PSo29UIAccessibilityIdentification", "configureButton"]
+- ["PSo29UIAccessibilityIdentification", "configureView"]
+- ["PSo29UIAccessibilityIdentification", "containerController"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackgroundImage"]
+- !private ["PSo29UIAccessibilityIdentification", "sizeToFit"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGRectMake"]
+- !private ["PSo12UIAppearance", "MobileConnectButton"]
+- !private ["PSo12UIAppearance", "NSException"]
+- !private ["PSo12UIAppearance", "Resources"]
+- !private ["PSo12UIAppearance", "UIControlEvents"]
+- !private ["PSo12UIAppearance", "UIControlState"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- ["PSo12UIAppearance", "buttonTouched"]
+- ["PSo12UIAppearance", "configureButton"]
+- ["PSo12UIAppearance", "configureView"]
+- ["PSo12UIAppearance", "containerController"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "setBackgroundImage"]
+- !private ["PSo12UIAppearance", "sizeToFit"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "MobileConnectButton"]
+- !private ["PSo21UIAppearanceContainer", "NSException"]
+- !private ["PSo21UIAppearanceContainer", "Resources"]
+- !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
+- !private ["PSo21UIAppearanceContainer", "UIControlState"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- ["PSo21UIAppearanceContainer", "buttonTouched"]
+- ["PSo21UIAppearanceContainer", "configureButton"]
+- ["PSo21UIAppearanceContainer", "configureView"]
+- ["PSo21UIAppearanceContainer", "containerController"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "setBackgroundImage"]
+- !private ["PSo21UIAppearanceContainer", "sizeToFit"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo8UIButton", "CGRect"]
+- !private ["CSo8UIButton", "CGRectMake"]
+- !private ["CSo8UIButton", "MobileConnectButton"]
+- ["CSo8UIButton", "NSCoder"]
+- !private ["CSo8UIButton", "NSException"]
+- !private ["CSo8UIButton", "Resources"]
+- ["CSo8UIButton", "UIButtonType"]
+- !private ["CSo8UIButton", "UIControlEvents"]
+- !private ["CSo8UIButton", "UIControlState"]
+- !private ["CSo8UIButton", "UIResponder"]
+- ["CSo8UIButton", "UIViewController"]
+- !private ["CSo8UIButton", "addTarget"]
+- ["CSo8UIButton", "buttonTouched"]
+- ["CSo8UIButton", "configureButton"]
+- ["CSo8UIButton", "configureView"]
+- ["CSo8UIButton", "containerController"]
+- ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "setBackgroundImage"]
+- !private ["CSo8UIButton", "sizeToFit"]
+- ["CSo8UIButton", ""]
+- ["CSo9UIControl", "CGRect"]
+- !private ["CSo9UIControl", "CGRectMake"]
+- !private ["CSo9UIControl", "MobileConnectButton"]
+- ["CSo9UIControl", "NSCoder"]
+- !private ["CSo9UIControl", "NSException"]
+- !private ["CSo9UIControl", "Resources"]
+- ["CSo9UIControl", "UIButtonType"]
+- !private ["CSo9UIControl", "UIControlEvents"]
+- !private ["CSo9UIControl", "UIControlState"]
+- !private ["CSo9UIControl", "UIResponder"]
+- ["CSo9UIControl", "UIViewController"]
+- !private ["CSo9UIControl", "addTarget"]
+- ["CSo9UIControl", "buttonTouched"]
+- ["CSo9UIControl", "configureButton"]
+- ["CSo9UIControl", "configureView"]
+- ["CSo9UIControl", "containerController"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "setBackgroundImage"]
+- !private ["CSo9UIControl", "sizeToFit"]
+- !private ["VSC15UIControlEvents", "TouchUpInside"]
+- !private ["VSC14UIControlState", "Normal"]
+- !private ["PSo17UICoordinateSpace", "CGRectMake"]
+- !private ["PSo17UICoordinateSpace", "MobileConnectButton"]
+- !private ["PSo17UICoordinateSpace", "NSException"]
+- !private ["PSo17UICoordinateSpace", "Resources"]
+- !private ["PSo17UICoordinateSpace", "UIControlEvents"]
+- !private ["PSo17UICoordinateSpace", "UIControlState"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- ["PSo17UICoordinateSpace", "buttonTouched"]
+- ["PSo17UICoordinateSpace", "configureButton"]
+- ["PSo17UICoordinateSpace", "configureView"]
+- ["PSo17UICoordinateSpace", "containerController"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "setBackgroundImage"]
+- !private ["PSo17UICoordinateSpace", "sizeToFit"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGRectMake"]
+- !private ["PSo13UIDynamicItem", "MobileConnectButton"]
+- !private ["PSo13UIDynamicItem", "NSException"]
+- !private ["PSo13UIDynamicItem", "Resources"]
+- !private ["PSo13UIDynamicItem", "UIControlEvents"]
+- !private ["PSo13UIDynamicItem", "UIControlState"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- ["PSo13UIDynamicItem", "buttonTouched"]
+- ["PSo13UIDynamicItem", "configureButton"]
+- ["PSo13UIDynamicItem", "configureView"]
+- ["PSo13UIDynamicItem", "containerController"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "setBackgroundImage"]
+- !private ["PSo13UIDynamicItem", "sizeToFit"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "MobileConnectButton"]
+- !private ["PSo18UIFocusEnvironment", "NSException"]
+- !private ["PSo18UIFocusEnvironment", "Resources"]
+- !private ["PSo18UIFocusEnvironment", "UIControlEvents"]
+- !private ["PSo18UIFocusEnvironment", "UIControlState"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- ["PSo18UIFocusEnvironment", "buttonTouched"]
+- ["PSo18UIFocusEnvironment", "configureButton"]
+- ["PSo18UIFocusEnvironment", "configureView"]
+- ["PSo18UIFocusEnvironment", "containerController"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "setBackgroundImage"]
+- !private ["PSo18UIFocusEnvironment", "sizeToFit"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- !private ["CSo11UIResponder", "MobileConnectButton"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "NSException"]
+- !private ["CSo11UIResponder", "Resources"]
+- ["CSo11UIResponder", "UIButtonType"]
+- !private ["CSo11UIResponder", "UIControlEvents"]
+- !private ["CSo11UIResponder", "UIControlState"]
+- !private ["CSo11UIResponder", "UIResponder"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "addTarget"]
+- ["CSo11UIResponder", "buttonTouched"]
+- ["CSo11UIResponder", "configureButton"]
+- ["CSo11UIResponder", "configureView"]
+- ["CSo11UIResponder", "containerController"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "nextResponder"]
+- !private ["CSo11UIResponder", "setBackgroundImage"]
+- !private ["CSo11UIResponder", "sizeToFit"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "MobileConnectButton"]
+- !private ["PSo18UITraitEnvironment", "NSException"]
+- !private ["PSo18UITraitEnvironment", "Resources"]
+- !private ["PSo18UITraitEnvironment", "UIControlEvents"]
+- !private ["PSo18UITraitEnvironment", "UIControlState"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- ["PSo18UITraitEnvironment", "buttonTouched"]
+- ["PSo18UITraitEnvironment", "configureButton"]
+- ["PSo18UITraitEnvironment", "configureView"]
+- ["PSo18UITraitEnvironment", "containerController"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "setBackgroundImage"]
+- !private ["PSo18UITraitEnvironment", "sizeToFit"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "CGRectMake"]
+- !private ["CSo6UIView", "MobileConnectButton"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "NSException"]
+- !private ["CSo6UIView", "Resources"]
+- ["CSo6UIView", "UIButtonType"]
+- !private ["CSo6UIView", "UIControlEvents"]
+- !private ["CSo6UIView", "UIControlState"]
+- !private ["CSo6UIView", "UIResponder"]
+- ["CSo6UIView", "UIViewController"]
+- !private ["CSo6UIView", "addTarget"]
+- ["CSo6UIView", "buttonTouched"]
+- ["CSo6UIView", "configureButton"]
+- ["CSo6UIView", "configureView"]
+- ["CSo6UIView", "containerController"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "setBackgroundImage"]
+- !private ["CSo6UIView", "sizeToFit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "CGRectMake"]
+- !private ["Ps12_Reflectable", "MobileConnectButton"]
+- !private ["Ps12_Reflectable", "NSException"]
+- !private ["Ps12_Reflectable", "Resources"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "UIControlEvents"]
+- !private ["Ps12_Reflectable", "UIControlState"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addTarget"]
+- ["Ps12_Reflectable", "buttonTouched"]
+- ["Ps12_Reflectable", "configureButton"]
+- ["Ps12_Reflectable", "configureView"]
+- ["Ps12_Reflectable", "containerController"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "setBackgroundImage"]
+- !private ["Ps12_Reflectable", "sizeToFit"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo6Ignore"
+- "PSo5Index"
+- "C16MobileConnectSDK19MobileConnectButton"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSException"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "PSo8Optional"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "C16MobileConnectSDK9Resources"
+- !private "Ps14SetAlgebraType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- "CSo9UIControl"
+- !private "VSC15UIControlEvents"
+- !private "VSC14UIControlState"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelLib.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphoneos/JSONModel.build/module.modulemap"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/Enums/MobileConnectProduct.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCJWTDecoder.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCError.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenResponseModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/TokenModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/AuthorizationModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataRedirectModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MetadataModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/MCModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/LinkModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorIdModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/APISModel.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/OperatorDataResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/Models/DiscoveryResponse.h"
+- "/Users/jenkins/Desktop/Demo/Pods/MobileConnectSDK/MobileConnectSDK/MobileConnectSDK.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/MobileConnectSDK/MobileConnectSDK-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphoneos/MobileConnectSDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jenkins/Desktop/Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/jenkins/Desktop/Demo/DerivedData/Demo/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/WebKit.swiftmodule"
+interface-hash: "2f35bc480f68788a4c119adb0f104361"
