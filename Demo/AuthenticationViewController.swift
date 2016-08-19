@@ -10,7 +10,17 @@ import UIKit
 import MobileConnectSDK
 
 class AuthenticationViewController: AuthorizationViewController {
-
+    
+    override var stringValues : [String]
+    {
+        return ["address", "email", "phone", "profile"]
+    }
+    
+    override var values : [ProductType]
+    {
+        return [ProductType.Address, ProductType.Email, ProductType.Phone, ProductType.Profile]
+    }
+    
     override func actionWithoutPhoneWithManager(manager: MobileConnectManager) {
         manager.getTokenInPresenterController(self, withScopes: selectedProductTypes, withCompletionHandler: launchTokenViewerWithTokenResponseModel)
     }

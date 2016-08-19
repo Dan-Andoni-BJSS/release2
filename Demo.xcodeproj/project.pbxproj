@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA297851D65D2C00025A79C /* BaseInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA297841D65D2C00025A79C /* BaseInfoPresenter.swift */; };
+		3CA297871D65D48E0025A79C /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA297861D65D48E0025A79C /* IdentityViewController.swift */; };
+		7AE1C1B6DA8B1411EE6CD176 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC54EE76E5EA85F093FE5C0 /* Pods_Demo.framework */; };
 		A669466F1D3FC01A0014DDF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669466E1D3FC01A0014DDF8 /* AppDelegate.swift */; };
 		A66946711D3FC01A0014DDF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66946701D3FC01A0014DDF8 /* ViewController.swift */; };
 		A66946741D3FC01A0014DDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66946721D3FC01A0014DDF8 /* Main.storyboard */; };
@@ -19,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EC54EE76E5EA85F093FE5C0 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA297841D65D2C00025A79C /* BaseInfoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInfoPresenter.swift; sourceTree = "<group>"; };
+		3CA297861D65D48E0025A79C /* IdentityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		9C1B8EB25455046CF98A1A96 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		A669466B1D3FC01A0014DDF8 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A669466E1D3FC01A0014DDF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A66946701D3FC01A0014DDF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +37,7 @@
 		A66946821D3FD2390014DDF8 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		A66946841D3FD32A0014DDF8 /* TokenInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenInfoViewController.swift; sourceTree = "<group>"; };
 		A66946861D3FDB9E0014DDF8 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		BAD634214BEE08135D2B332C /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,18 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE1C1B6DA8B1411EE6CD176 /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C470F62A6F00AF61008F320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C1B8EB25455046CF98A1A96 /* Pods-Demo.debug.xcconfig */,
+				BAD634214BEE08135D2B332C /* Pods-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A66946621D3FC01A0014DDF8 = {
 			isa = PBXGroup;
 			children = (
 				A669466D1D3FC01A0014DDF8 /* Demo */,
 				A669466C1D3FC01A0014DDF8 /* Products */,
 				C8E6BE7DE30618D814E29BFC /* Frameworks */,
+				5C470F62A6F00AF61008F320 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +92,8 @@
 				A66946821D3FD2390014DDF8 /* AuthenticationViewController.swift */,
 				A66946841D3FD32A0014DDF8 /* TokenInfoViewController.swift */,
 				A66946861D3FDB9E0014DDF8 /* AuthorizationViewController.swift */,
+				3CA297841D65D2C00025A79C /* BaseInfoPresenter.swift */,
+				3CA297861D65D48E0025A79C /* IdentityViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -80,6 +101,7 @@
 		C8E6BE7DE30618D814E29BFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2EC54EE76E5EA85F093FE5C0 /* Pods_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,10 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA297871D65D48E0025A79C /* IdentityViewController.swift in Sources */,
 				A66946871D3FDB9E0014DDF8 /* AuthorizationViewController.swift in Sources */,
 				A66946851D3FD32A0014DDF8 /* TokenInfoViewController.swift in Sources */,
 				A66946831D3FD2390014DDF8 /* AuthenticationViewController.swift in Sources */,
 				A66946711D3FC01A0014DDF8 /* ViewController.swift in Sources */,
+				3CA297851D65D2C00025A79C /* BaseInfoPresenter.swift in Sources */,
 				A669466F1D3FC01A0014DDF8 /* AppDelegate.swift in Sources */,
 				A66946811D3FC1110014DDF8 /* Constants.swift in Sources */,
 			);
@@ -325,6 +349,7 @@
 		};
 		A669467E1D3FC01A0014DDF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1B8EB25455046CF98A1A96 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -340,6 +365,7 @@
 		};
 		A669467F1D3FC01A0014DDF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD634214BEE08135D2B332C /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

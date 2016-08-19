@@ -12,16 +12,6 @@ import MobileConnectSDK
 class AuthorizationViewController: ViewController,  UITableViewDelegate, UITableViewDataSource {
 
     //MARK: iVars
-    var stringValues : [String]
-    {
-        return ["address", "email", "phone", "profile", "national id(identity)", "phone number(identity)", "sign up(identity)"]
-    }
-    
-    var values : [ProductType]
-    {
-        return [ProductType.Address, ProductType.Email, ProductType.Phone, ProductType.Profile, ProductType.IdentityNationalID, ProductType.IdentityPhoneNumber, ProductType.IdentitySignUp]
-    }
-    
     var selectedProductTypes : [ProductType]
     {
         guard let selectedIndexPaths = tableView.indexPathsForSelectedRows else

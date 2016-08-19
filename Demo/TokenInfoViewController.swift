@@ -9,77 +9,86 @@
 import UIKit
 import MobileConnectSDK
 
-class TokenInfoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIToolbarDelegate {
+private let kSegueToAttribute : String = "toIdentity"
 
-    var tokenResponse : TokenResponseModel?
-    var error : NSError?
+class TokenInfoViewController: BaseInfoPresenter {
     
-    var dataModel : [String : String]
-    {
-        var model : [String : String] = [:]
+    //MARK:Outlets
+    @IBOutlet weak var getIdentityButton: UIBarButtonItem!
+    @IBOutlet weak var toolbar: UIToolbar!
+    
+    //MARK: iVars
+    var currentResponse : AttributeResponseModel?
+    var currentError : NSError?
+    
+    var hasGetIdentity : Bool = true
+    
+    //MARK: View life cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
-        if let error = error
+        if let index = toolbar.items?.indexOf(getIdentityButton) where !hasGetIdentity
         {
-            model["message"] = error.localizedDescription
+            toolbar.items?.removeAtIndex(index)
         }
-        
-        if let tokenResponse = tokenResponse
-        {
-            model["message"] = "Success"
-            model["application short name"] = tokenResponse.discoveryResponse?.applicationShortName ?? ""
-            model["access token"] = tokenResponse.tokenData?.access_token
-            model["token id"] = tokenResponse.tokenData?.id_token
-        }
-        
-        return model
     }
     
-    //MARK: Toolbar delegate
-    func positionForBar(bar: UIBarPositioning) -> UIBarPosition {
-        return UIBarPosition.TopAttached
-    }
-    
-    //MARK: Actions
-    @IBAction func dismissAction(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
-    
+    //MARK: Events
     @IBAction func getIdentityAction(sender: AnyObject) {
         
-        guard let tokenResponse = tokenResponse else
+        guard let tokenResponse = model as? TokenResponseModel else
         {
             return
         }
         
         let attributeService : AttributeService = AttributeService(tokenResponse: tokenResponse)
         
-        attributeService.getAttributeInformation { (responseModel, error) in
-            
+        attributeService.getAttributeInformation(launchIdentityViewer)
+    }
+    
+    //MARK: Helpers
+    func dataModelFromCurrentResponse(currentResponse : AttributeResponseModel?) -> [String : String]
+    {
+        guard let currentResponse = currentResponse else
+        {
+            return [:]
         }
+        
+        var model : [String : String] = [:]
+        
+        model["message"] = currentError?.localizedDescription ?? "success"
+        
+        var jsonDictionary : [NSObject : AnyObject] = currentResponse.toDictionary()
+        
+        jsonDictionary.removeValueForKey("address")
+        
+        let addressString : String = currentResponse.address?.formatted ?? ""
+        
+        guard let modelDictionary = jsonDictionary as? [String : String] else
+        {
+            return [:]
+        }
+        
+        model = modelDictionary
+        model["address"] = addressString
+        
+        return model
     }
     
-    //MARK: Table view delegate methods
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+    //MARK: Navigation
+    func launchIdentityViewer(responseModel : AttributeResponseModel?, error : NSError?)
+    {
+        currentResponse = responseModel
+        currentError = error
+        
+        performSegueWithIdentifier(kSegueToAttribute, sender: nil)
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let cell : UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
-        
-        let key : String = dataModel.keys.map({$0})[indexPath.row]
-        
-        cell.textLabel?.text = key
-        cell.detailTextLabel?.text = dataModel[key]
-        
-        return cell
-    }
-    
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataModel.count
-    }
-    
-    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 1
+        if let identityViewerController = segue.destinationViewController as? IdentityViewController
+        {
+            identityViewerController.dataModel = dataModelFromCurrentResponse(currentResponse)
+        }
     }
 }

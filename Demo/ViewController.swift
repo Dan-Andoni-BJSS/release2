@@ -10,16 +10,29 @@ import UIKit
 import MobileConnectSDK
 
 private let kSegueToTokenResponseViewer : String = "toTokenInfo"
+private let kHasGetIdentityCountNumber : Int = 7
 
 class ViewController: UIViewController {
 
+    //MARK: Outlets
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
+    //MARK: iVars
     var currentTokenResponse : TokenResponseModel?
     var currentError : NSError?
     
+    var stringValues : [String]
+    {
+        return ["address", "email", "phone", "profile", "national id(identity)", "phone number(identity)", "sign up(identity)"]
+    }
     
+    var values : [ProductType]
+    {
+        return [ProductType.Address, ProductType.Email, ProductType.Phone, ProductType.Profile, ProductType.IdentityNationalID, ProductType.IdentityPhoneNumber, ProductType.IdentitySignUp]
+    }
+    
+    //MARK: Events
     @IBAction func segmentChanged(sender: AnyObject) {
         phoneNumberTextField.hidden = segmentedControl.selectedSegmentIndex == 0
     }
@@ -37,38 +50,9 @@ class ViewController: UIViewController {
         {
             actionWithPhoneAndWithManager(manager)
         }
-        
-//        if let selectedIndexPaths = tableView.indexPathsForSelectedRows
-//        {
-//            let scopes : [OpenIdProductType] = selectedIndexPaths.map({$0.row}).map({self.values[$0]})
-//            
-//            if segmentedControl.selectedSegmentIndex == 0
-//            {
-//                manager.getTokenInPresenterController(self, withCompletionHandler: { (tokenResponseModel, error) in
-//                    self.tokenLabel.text = error?.localizedDescription ?? tokenResponseModel?.tokenData?.id_token
-//                })
-//                
-////                manager.getAuthorizationTokenInPresenterController(self, withContext: "blabla", scopes: scopes, bindingMessage: "got banana", completionHandler: { (tokenResponseModel, error) in
-////                
-////                    self.tokenLabel.text = error?.localizedDescription ?? tokenResponseModel?.tokenData?.id_token
-////                
-////                })
-//            }
-//            else
-//            {
-//                manager.getTokenForPhoneNumber(phoneNumberTextField.text ?? "", inPresenterController: self, withCompletionHandler: { (tokenResponseModel, error) in
-//                    self.tokenLabel.text = error?.localizedDescription ?? tokenResponseModel?.tokenData?.id_token
-//                })
-//                
-////                manager.getAuthorizationTokenForPhoneNumber(phoneNumberTextField.text ?? "", inPresenterController: self, withScopes: scopes, context: "blabla", bindingMessage: "asdas", completionHandler: { (tokenResponseModel, error) in
-////                    
-////                    self.tokenLabel.text = error?.localizedDescription ?? tokenResponseModel?.tokenData?.id_token
-////
-////                })
-//            }
-//        }
     }
     
+    //MARK: To be overriden
     func actionWithoutPhoneWithManager(manager : MobileConnectManager)
     {
         
@@ -79,6 +63,7 @@ class ViewController: UIViewController {
         
     }
     
+    //MARK: Navigation
     func launchTokenViewerWithTokenResponseModel(tokenResponseModel : TokenResponseModel?, error : NSError?)
     {
         currentTokenResponse = tokenResponseModel
@@ -91,8 +76,24 @@ class ViewController: UIViewController {
         
         if let controller = segue.destinationViewController as? TokenInfoViewController
         {
-            controller.error = currentError
-            controller.tokenResponse = currentTokenResponse
+            var model : [String : String] = [:]
+            
+            if let error = currentError
+            {
+                model["message"] = error.localizedDescription
+            }
+            
+            if let tokenResponse = currentTokenResponse
+            {
+                model["message"] = "Success"
+                model["application short name"] = tokenResponse.discoveryResponse?.applicationShortName ?? ""
+                model["access token"] = tokenResponse.tokenData?.access_token
+                model["token id"] = tokenResponse.tokenData?.id_token
+            }
+            
+            controller.model = currentTokenResponse
+            controller.dataModel = model
+            controller.hasGetIdentity = values.count == kHasGetIdentityCountNumber
         }
     }
 }
